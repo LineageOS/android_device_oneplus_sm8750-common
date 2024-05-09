@@ -208,9 +208,6 @@ media.c2.hal.selection=aidl
 media.stagefright.audio.deep=false
 vendor.media.omx=0
 
-# Pasr
-vendor.pasr.activemode.enabled=true
-
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=3.0

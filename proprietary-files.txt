@@ -507,11 +507,6 @@ vendor/lib64/qti.video.utils.videobufferlayout.so
 vendor/lib64/vendor.qti.hardware.qconfig-V1-ndk.so
 
 # Memory
-vendor/bin/hw/vendor.qti.memory.pasrmanager-service
-vendor/etc/init/vendor.qti.memory.pasrmanager-service.rc
-vendor/etc/vintf/manifest/vendor.qti.memory.pasrmanager-service.xml
-vendor/lib64/hw/vendor.qti.memory.pasrmanager-impl.so
-vendor/lib64/libpasrutils.so
 vendor/lib64/vendor.qti.memory.pasrmanager-V1-ndk.so
 
 # Misc
