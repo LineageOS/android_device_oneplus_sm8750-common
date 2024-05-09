@@ -50,7 +50,6 @@ slc_mpam.ko
 cpucp_log.ko
 sys_pm_vx.ko
 mem-hooks.ko
-mem-offline.ko
 sps_drv.ko
 qcom_ramdump.ko
 sysmon_subsystem_stats.ko

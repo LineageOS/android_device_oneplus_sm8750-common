@@ -72,24 +72,6 @@ function configure_zram_parameters() {
 	fi
 }
 
-configure_pasr_support()
-{
-	ddr_type=`od -An -tx /proc/device-tree/memory/ddr_device_type`
-	ddr_type5="08"
-
-	if [ -d /sys/kernel/mem-offline ]; then
-		#only LPDDR5 supports PAAR
-		if [ ${ddr_type:4:2} != $ddr_type5 ]; then
-			setprop vendor.pasr.activemode.enabled false
-		fi
-
-		setprop vendor.pasr.enabled true
-		echo "pasr-enabled"
-	else
-		setprop vendor.pasr.enabled false
-	fi
-}
-
 function configure_read_ahead_kb_values() {
 	MemTotalStr=`cat /proc/meminfo | grep MemTotal`
 	MemTotal=${MemTotalStr:16:8}
