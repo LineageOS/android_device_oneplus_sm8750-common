@@ -216,6 +216,9 @@ vendor.usb.rndis.func.name=gsi
 vendor.usb.use_ffs_mtp=1
 vendor.usb.use_gadget_hal=1
 
+# VM
+ro.vendor.vm.ssr.enable=false
+
 # Widevine
 vendor.wv.oemcrypto.debug.enable_external_display_check=false
 vendor.wv.oemcrypto.debug.enable_hlos_data_path=true
