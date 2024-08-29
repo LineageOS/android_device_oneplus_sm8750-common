@@ -179,16 +179,13 @@ vendor/bin/engine-service
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/mlid
-vendor/bin/qsap_location
 vendor/bin/slim_daemon
 vendor/bin/xtra-daemon
 vendor/bin/xtwifi-client
 vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc
 vendor/etc/init/loc-launcher.rc
-vendor/etc/init/vendor.qsap.location.rc
 vendor/etc/seccomp_policy/gnss@2.0-base.policy
 vendor/etc/seccomp_policy/gnss@2.0-edgnss-daemon.policy
-vendor/etc/seccomp_policy/gnss@2.0-qsap-location.policy
 vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy
 vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy
 vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml
