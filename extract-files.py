@@ -50,19 +50,8 @@ blob_fixups: blob_fixups_user_type = {
         'odm/bin/touchDaemon',
         'odm/bin/hw/vendor-oplus-hardware-touch-V2-service',
         'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff',
-        'vendor/bin/poweropt-service',
         'vendor/lib64/hw/libaudioeffecthal.qti.so',
         'vendor/lib64/soundfx/libquasar.so',
-        'vendor/lib64/libaodoptfeature.so',
-        'vendor/lib64/libapengine.so',
-        'vendor/lib64/libcamerapoweroptfeature.so',
-        'vendor/lib64/liblearningmodule.so',
-        'vendor/lib64/libgamepoweroptfeature.so',
-        'vendor/lib64/libpowercore.so',
-        'vendor/lib64/liboffscreenpoweroptfeature.so',
-        'vendor/lib64/libpsmoptfeature.so',
-        'vendor/lib64/libstandbyfeature.so',
-        'vendor/lib64/libvideooptfeature.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'odm/etc/init/init.network.rc': blob_fixup()
@@ -95,10 +84,7 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/liblistensoundmodel2vendor.so',
     ): blob_fixup()
         .replace_needed('libtensorflowlite_c.so', 'libtensorflowlite_c_vendor.so'),
-    (
-        'vendor/lib64/libapengine.so',
-        'vendor/lib64/libqti-perfd.so',
-    ): blob_fixup()
+    'vendor/lib64/libqti-perfd.so': blob_fixup()
         .replace_needed('vendor.qti.hardware.display.config-V5-ndk.so', 'vendor.qti.hardware.display.config-V12-ndk.so'),
     'vendor/lib64/libaudioserviceexampleimpl.so': blob_fixup()
         .add_needed('libaudioutils_shim.so')
