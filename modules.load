@@ -260,6 +260,7 @@ oplus_sensor_ir_core.ko
 oplus_sensor_kookong_ir_spi.ko
 thermal_pa_adc.ko
 qca_cld3_peach_v2.ko
+qca_cld3_wcn7750.ko
 cnss2.ko
 icnss2.ko
 cnss_plat_ipc_qmi_svc.ko
@@ -375,6 +376,7 @@ btfmcodec.ko
 btfm_slim_codec.ko
 bt_fm_swr.ko
 qca_cld3_peach_v2.ko
+qca_cld3_wcn7750.ko
 cnss2.ko
 icnss2.ko
 cnss_plat_ipc_qmi_svc.ko
