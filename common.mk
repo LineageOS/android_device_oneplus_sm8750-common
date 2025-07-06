@@ -55,10 +55,8 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libsndcardparser \
     libsoundtriggerhal.qti \
     libvolumelistener \
-    libvui_intf \
     qtiaudiohalvendorextn
 
 PRODUCT_PACKAGES += \
