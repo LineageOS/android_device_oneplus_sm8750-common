@@ -43,14 +43,7 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.qccvndhal_aidl-V1-ndk',
     ): lib_fixup_vendor_suffix,
     (
-        'libagm',
-        'libagmclient',
-        'libar-acdb',
-        'libar-gsl',
-        'libats',
         'libaudioserviceexampleimpl',
-        'liblx-osal',
-        'libvui_intf',
     ): lib_fixup_remove,
 }
 

@@ -2,9 +2,7 @@
 ## are from OnePlus 13 (CPH2653_16.0.3.501(EX01)).
 
 # Current blobs with ELF checks disabled:
-# libar-pal depends on libagmclient and libar-gsl, which are gnu makefile targets
-# libarmemlog and libvui_intf depend on liblx-osal, which is a gnu makefile target
-# libmcs depends on libar-acdb, libagm, libats and liblx-osal, which are gnu makefile targets
+# android.hardware.bluetooth.audio_sw depends on libaudioserviceexampleimpl, which is shipped as prebuilt
 
 # ACDBs
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.2_enpuv5.pmd
@@ -64,8 +62,8 @@ vendor/lib64/hw/libaudioeffecthal.qti.so;DISABLE_DEPS;REQUIRED=audioeffectservic
 vendor/lib64/libPeripheralStateUtils.so
 vendor/lib64/libVoiceSdk.so
 vendor/lib64/libadm.so
-vendor/lib64/libar-pal.so;DISABLE_CHECKELF
-vendor/lib64/libarmemlog.so;DISABLE_CHECKELF
+vendor/lib64/libar-pal.so
+vendor/lib64/libarmemlog.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioplatformconverter.qti.so;DISABLE_DEPS
 vendor/lib64/libcapiv2svacnnvendor.so
@@ -77,7 +75,7 @@ vendor/lib64/libeai_fixed.so
 vendor/lib64/libeai_float.so
 vendor/lib64/liblistensoundmodel2vendor.so
 vendor/lib64/liblistensoundmodelaidl.so
-vendor/lib64/libmcs.so;DISABLE_CHECKELF
+vendor/lib64/libmcs.so
 vendor/lib64/libqasr.so
 vendor/lib64/libqtigefar.so;DISABLE_DEPS
 vendor/lib64/libtensorflowlite_c.so:vendor/lib64/libtensorflowlite_c_vendor.so;FIX_SONAME
