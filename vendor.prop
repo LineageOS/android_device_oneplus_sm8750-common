@@ -116,6 +116,7 @@ vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.chall
 ro.soc.manufacturer=QTI
 
 # Display
+persist.sys.sf.color_mode=9
 persist.sys.sf.color_saturation=1.0
 vendor.display.comp_mask=0
 vendor.display.disable_3d_adaptive_tm=1
