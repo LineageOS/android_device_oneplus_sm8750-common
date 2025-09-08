@@ -284,44 +284,44 @@ vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/lib64/libdiag.so
 vendor/lib64/vendor.qti.diaghal-V1-ndk.so;MODULE_SUFFIX=_vendor
 
-# Display (HAL)
-odm/etc/display/cwb_weightspos.json
-odm/etc/vintf/manifest/manifest_oplus_cwb_aidl.xml
-vendor/bin/hw/vendor.qti.hardware.display.color-service
-vendor/etc/init/vendor.qti.hardware.display.color-service.rc
-vendor/lib64/libcwb_client_vendor.so
-vendor/lib64/libcwb_qcom_aidl.so
-vendor/lib64/libhdrvivid.so
-vendor/lib64/libhwcsensor.so
-vendor/lib64/libsdm-brightnessaware-parser.so
-vendor/lib64/vendor.oplus.hardware.cwb-V1-ndk.so
-vendor/lib64/vendor.oplus.hardware.cwb@1.0.so
+# Display (HAL) - from pagani CPH2723_15.0.2.303(EX01)
+odm/etc/display/cwb_weightspos.json|f257f812f11e8c1e646ea31d3efbfc74d0f4acbb
+odm/etc/vintf/manifest/manifest_oplus_cwb_aidl.xml|ef51f5769119364eae57ab6a44ab19238aa95919
+vendor/bin/hw/vendor.qti.hardware.display.color-service|f2e251502d9cf86c1bff04fdf335e6e35abc0f2f
+vendor/etc/init/vendor.qti.hardware.display.color-service.rc|c9e7bd7964270453b14a5f64d5d08cab4b71a274
+vendor/lib64/libcwb_client_vendor.so|cdede15586881539f425b256918ba5acb3c4ae10
+vendor/lib64/libcwb_qcom_aidl.so|b9744f045857dc1b5299c3b34cd0b553315d5fe9|7b470bb9ca4eadfcaf90047d947a064b654558ff
+vendor/lib64/libhdrvivid.so|ebfbd4fe76b8a81e403a0e6f0876b43772b89bfd
+vendor/lib64/libhwcsensor.so|cd0c84dc54a656d13f74db3b7b29e3f5521ed14f
+vendor/lib64/libsdm-brightnessaware-parser.so|73a0a3e2aef0e6dd13992e87efcf99cb6a64f582
+vendor/lib64/vendor.oplus.hardware.cwb-V1-ndk.so|10d527b555a115e26a8e5439b613d3d83f0cf4f4
+vendor/lib64/vendor.oplus.hardware.cwb@1.0.so|ad64c8b92c8ae056dad2ca7b34dfb723b33ebda8
 
-# Display (HDR)
-vendor/lib64/libhdr_backlight_adapter.so
-vendor/lib64/libhdr_tm.so
-vendor/lib64/libhdrdynamic.so
-vendor/lib64/libhdrdynamicootf.so
+# Display (HDR) - from pagani CPH2723_15.0.2.303(EX01)
+vendor/lib64/libhdr_backlight_adapter.so|79881c142715a646fd3b4b7e5b0e90f03e833aa8
+vendor/lib64/libhdr_tm.so|5f4a9260bd344d7c46b8d198d7f98774a8a66e60
+vendor/lib64/libhdrdynamic.so|379c3640668447920ad92f5a4c3d4faf71ff3681
+vendor/lib64/libhdrdynamicootf.so|e6587b71bec9ce6638082e5347e4b09a82b91b89
 
-# Display (HWC)
-vendor/bin/qdcmss
-vendor/bin/qguard
-vendor/etc/init/qdcmss.rc
-vendor/etc/init/qguard.rc
-vendor/etc/qguard.json
-vendor/etc/snapdragon_color_libs_config.xml
-vendor/lib64/libbacklight-calib.so
-vendor/lib64/libdigital-dimming.so
-vendor/lib64/libdpps.so
-vendor/lib64/libgame_enhance.so
-vendor/lib64/libmemutils.so
-vendor/lib64/libqdcm-algo.so
-vendor/lib64/libqdcm-json-mode-parser.so
-vendor/lib64/libqdcm-mode-parser.so
-vendor/lib64/libsnapdragoncolor-manager.so
-vendor/lib64/libsnapdragoncolor-qdcm.so
-vendor/lib64/libtinyxml2_1.so
-vendor/lib64/libubwcp.so
+# Display (HWC) - from pagani CPH2723_15.0.2.303(EX01)
+vendor/bin/qdcmss|b8ba2892d9c06c776cdfa6f59c22522ecb40d818
+vendor/bin/qguard|adf777928411cd1eb35b96b28b70a5477a78e7a7
+vendor/etc/init/qdcmss.rc|53d78d686678c4f923a9ec4ace7d4d3575b13788
+vendor/etc/init/qguard.rc|245d7a6c19f61cb99a84f961e7a230a84f80879a
+vendor/etc/qguard.json|71e484509d1370e825c1ce85bdb4067f3ce4915a
+vendor/etc/snapdragon_color_libs_config.xml|213f35e59555960693121814ad1309efe9dd8ca7
+vendor/lib64/libbacklight-calib.so|9b9a8b14f761d8dc9c73ace97480c341d9b78424
+vendor/lib64/libdigital-dimming.so|8fe5e16abcf05d50c606210b6c3f40a80dc09dc0
+vendor/lib64/libdpps.so|85cbcd0e7cf86446ba811caf764a199eecb917ee
+vendor/lib64/libgame_enhance.so|f922a5472e657f9d4fd4da8904e128663c306a2b
+vendor/lib64/libmemutils.so|26a66a255a951a0a10892aaaedc3e8b45bc7898c
+vendor/lib64/libqdcm-algo.so|25373516979d24c4afd67ab493f41cfe14f47546
+vendor/lib64/libqdcm-json-mode-parser.so|320fba37d5002aedb0dc4be06ad99b9198ebc8a9
+vendor/lib64/libqdcm-mode-parser.so|96aa52d54a1aa6636d8978bb979ea0a3beef2558
+vendor/lib64/libsnapdragoncolor-manager.so|0f80173471f34a947e8b5c8529150904d127fb1a
+vendor/lib64/libsnapdragoncolor-qdcm.so|fea1c5e5d46f88e9aa14e2284fd8ab12078f2390
+vendor/lib64/libtinyxml2_1.so|2657eb1c19daa25a594e585062c958f93ae3e047
+vendor/lib64/libubwcp.so|c5ea61de800dee08983c99a9472d6c5eebfa76dc
 
 # Display (SDM) - from pagani CPH2723_15.0.2.303(EX01)
 odm/lib64/libclstc_color_feature.so|5e3c1cc5f5d25e85f0a4b7705ed5aec242ce1af5
@@ -1110,13 +1110,13 @@ vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
-# Touch
-odm/bin/hw/vendor-oplus-hardware-touch-V2-service
-odm/bin/touchDaemon
-odm/etc/init/init.touchDaemon.rc
-odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc
-odm/etc/vintf/manifest/manifest_touch_aidl.xml
-odm/lib64/libtensorflowlite_oplus.so
+# Touch - from pagani CPH2723_15.0.2.303(EX01)
+odm/bin/hw/vendor-oplus-hardware-touch-V2-service|b82000d9a8c13f68f7ee9f55083812f88d948902
+odm/bin/touchDaemon|13979164b4bdfc64e96ea384d7b44469baf5cd96
+odm/etc/init/init.touchDaemon.rc|ddee903c9d324c0a74cbde2b1a669c1d715a8ea2
+odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc|4f5aeae41c029835e747efa365f65466ed53e595
+odm/etc/vintf/manifest/manifest_touch_aidl.xml|533fa17a03339bb0ddb42029e20fd9b20e530101
+odm/lib64/libtensorflowlite_oplus.so|63e4202be5edb8eae61dbc6958e3e1127996d903
 
 # UFS
 odm/firmware/ufs/SAMSUNG-KLUFG4NHHB-F0G1.bin
