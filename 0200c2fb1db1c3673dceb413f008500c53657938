@@ -16,6 +16,24 @@
       "message": "I was hoping we would use it someday. :P",
       "revId": "0200c2fb1db1c3673dceb413f008500c53657938",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc5d9f59_d304d494",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2025-09-11T01:28:14Z",
+      "side": 1,
+      "message": "i actually investigated this before. aosp\u0027s frontend is not usable, and some custom roms reversed the one from pixels.",
+      "parentUuid": "50005bfe_ead98b4a",
+      "revId": "0200c2fb1db1c3673dceb413f008500c53657938",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
