@@ -22,7 +22,7 @@ ro.sys.reserve.integrate=true
 ro.vendor.oplus.radio.project=1
 
 # SVN
-ro.build.version.svn=67
+ro.build.version.svn=68
 
 # Widevine
 vendor.wv.oemcrypto.debug.enable_prov40=true
