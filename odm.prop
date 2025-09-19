@@ -6,7 +6,6 @@ ro.vendor.qti.va_odm.support=1
 sys.oplus_ftm_mode=997
 
 # Bluetooth
-persist.bluetooth.oplus.export.nv_overwrite_region=true
 persist.vendor.bluetooth.modem_nv_support=true
 
 # Display
