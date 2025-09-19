@@ -6,9 +6,21 @@ tunnel.audio.encode=true
 use.voice.path.for.pcm.voip=true
 
 # Bluetooth
+bluetooth.hfp.codec_aptx_voice.enabled=true
+bluetooth.leaudio.dual_bidirection_swb.supported=true
 persist.bluetooth.bqr.choppy_threshold=1,1
 persist.bluetooth.bqr.event_mask=0x8004001E
 persist.bluetooth.bqr.min_interval_ms=6000
+persist.bluetooth.leaudio.allow.multiple.contexts=false
+persist.bluetooth.leaudio.bypass_allow_list=true
+persist.bluetooth.leaudio.notify.idle.during.call=true
+persist.bluetooth.snooplogfilter.profiles.a2dp.enabled=true
+persist.bluetooth.snooplogfilter.profiles.map=fullfilter
+persist.bluetooth.snooplogfilter.profiles.pbap=fullfilter
+persist.bluetooth.snooplogfilter.profiles.rfcomm.enabled=true
+persist.vendor.btstack.enable.lpa=true
+ro.bluetooth.finder.supported=true
+ro.bluetooth.leaudio_offload.supported=true
 
 # CNE
 persist.vendor.cne.feature=1
@@ -30,6 +42,8 @@ persist.sys.horae.enable=1
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
+persist.vendor.ims.rtp.enableqxdm=15
+persist.vendor.ims.vt.enableadb=3
 
 # Media
 media.aac_51_output_enabled=true
