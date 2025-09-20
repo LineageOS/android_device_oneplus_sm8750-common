@@ -617,7 +617,7 @@ vendor/lib64/libqtikeymint.so
 vendor/lib64/libspcom.so
 
 # Media
-odm/etc/camera/media_profiles.xml:odm/etc/media_profiles_V1_0.xml
+odm/etc/camera/media_profiles.xml:odm/etc/media_profiles_V1_0.xml;TRYSRCFIRST
 odm/lib64/libc2filterplugin.so
 odm/lib64/libdolbydecoderprocessor.so
 odm/lib64/libdolbyeglcore.so
