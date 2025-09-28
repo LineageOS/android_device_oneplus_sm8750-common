@@ -643,6 +643,7 @@ vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.qconfig-service.xml
 vendor/etc/media_codecs_performance_sun_vendor.xml:vendor/etc/media_codecs_performance_sun.xml;TRYSRCFIRST
 vendor/etc/media_codecs_sun_vendor.xml:vendor/etc/media_codecs_sun.xml;TRYSRCFIRST
+vendor/etc/media_profiles_sun.xml
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libEvrcSwCodec.so
