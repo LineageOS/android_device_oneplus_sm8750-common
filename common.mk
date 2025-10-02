@@ -365,6 +365,7 @@ endif
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors-service.multihal \
+    folio-daemon \
     sensors.dynamic_sensor_hal \
     sensors.qsh_wrapper
 
