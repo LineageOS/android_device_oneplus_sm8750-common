@@ -16,6 +16,24 @@
       "message": "Uhh, maybe don\u0027t revert this.",
       "revId": "cc3a051bc8e1e356a763b02f6ab883331f005d7c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9953004e_8dab918f",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-10-04T08:46:25Z",
+      "side": 1,
+      "message": "why not? stock puts odm/vendor_dlkm in vbmeta.img instead of vbmeta_vendor.img.",
+      "parentUuid": "186b667a_edc8a77e",
+      "revId": "cc3a051bc8e1e356a763b02f6ab883331f005d7c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
