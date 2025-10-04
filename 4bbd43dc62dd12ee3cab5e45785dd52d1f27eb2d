@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a3939d1_558e544d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-10-04T09:17:33Z",
+      "side": 1,
+      "message": "tbh, the whole topic doesn\u0027t make that much difference for us when relocking doesn\u0027t work anyway.\n\ni\u0027ll leave it open but probably not going to merge it.",
+      "revId": "4bbd43dc62dd12ee3cab5e45785dd52d1f27eb2d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
