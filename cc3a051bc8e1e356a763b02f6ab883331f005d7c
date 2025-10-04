@@ -34,6 +34,24 @@
       "parentUuid": "186b667a_edc8a77e",
       "revId": "cc3a051bc8e1e356a763b02f6ab883331f005d7c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c36d3925_a80ab8d2",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-04T08:53:34Z",
+      "side": 1,
+      "message": "Then you might as well revert fstab changes from Alex.",
+      "parentUuid": "9953004e_8dab918f",
+      "revId": "cc3a051bc8e1e356a763b02f6ab883331f005d7c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
