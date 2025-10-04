@@ -70,6 +70,24 @@
       "parentUuid": "c36d3925_a80ab8d2",
       "revId": "cc3a051bc8e1e356a763b02f6ab883331f005d7c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "312e939a_82bf8911",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-04T08:58:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "02e11eb9_c5dfa84a",
+      "revId": "cc3a051bc8e1e356a763b02f6ab883331f005d7c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
