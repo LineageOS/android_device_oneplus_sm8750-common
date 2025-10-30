@@ -16,6 +16,23 @@
       "message": "Looks fine here, will continue to test for a couple of hours.",
       "revId": "35ac086bf7d105a28e4872b7981c03ca0ea8a162",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8963bba0_50f697be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-10-30T12:10:11Z",
+      "side": 1,
+      "message": "This change might impact auto-rotation behavior on erhai, as caihong currently references: 1847256b79925a08f88fc81ab8f346f4cb43d2ef",
+      "revId": "35ac086bf7d105a28e4872b7981c03ca0ea8a162",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
