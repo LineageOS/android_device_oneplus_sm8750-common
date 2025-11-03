@@ -131,7 +131,7 @@
     </hal>
     <hal format="aidl">
         <name>vendor.qti.hardware.radio.qtiradio</name>
-        <version>13</version>
+        <version>14</version>
         <interface>
             <name>IQtiRadioStable</name>
             <instance>slot1</instance>
