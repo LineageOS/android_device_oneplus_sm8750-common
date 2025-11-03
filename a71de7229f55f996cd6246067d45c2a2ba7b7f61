@@ -16,6 +16,23 @@
       "message": "```\nhost_init_verifier: vendor/oneplus/sm8750-common/proprietary/odm/etc/init/init.network.rc: 177: Invalid keyword \u0027/*\u0027\nhost_init_verifier: Failed to parse init scripts with 1 error(s).\n\nhost_init_verifier: vendor/oneplus/dodge/proprietary/odm/etc/init/init.camera_process.rc: 6: Invalid keyword \u0027delete_recursion\u0027\n\n```\nmanually fixing those are ugly, maybe some1 suggest a better way of fixing OPLUS\u0027s crappy syntax",
       "revId": "a71de7229f55f996cd6246067d45c2a2ba7b7f61",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ae49788_710eed7c",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1129,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-11-03T07:23:43Z",
+      "side": 1,
+      "message": "Can\u0027t it be unpinned?",
+      "revId": "a71de7229f55f996cd6246067d45c2a2ba7b7f61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
