@@ -7,6 +7,15 @@
 import /odm/etc/init/hw/init.oplus.display.rc
 import /odm/etc/init/hw/init.oplus.wifi.rc
 
+#ifdef OPLUS_BUG_DEBUG
+#Liding.Huang@NETWORK.CALL, 2025/07/08
+on property:ro.boot.vendor.qspa.modem=enabled
+     setprop persist.oplus.qspa.modem enabled
+
+on property:ro.boot.vendor.qspa.modem=disabled && property:persist.vendor.radio.virtualcomm=1
+     setprop persist.oplus.qspa.modem enabled
+#endif
+
 on fs
     # Update touchpanel firmware in case we ship newer firmware in /odm
     write /proc/touchpanel/tp_fw_update 0
