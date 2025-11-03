@@ -51,6 +51,7 @@ PRODUCT_PACKAGES += \
     libhfp_pal \
     libhotword_intf \
     libmediautils_vendor.vendor \
+    libmemunreachable.vendor \
     libpaleventnotifier \
     libpalipcservice \
     libqcompostprocbundle \
@@ -343,6 +344,7 @@ PRODUCT_COPY_FILES += \
 
 # QSPA
 PRODUCT_PACKAGES += \
+    qspa_vendor.rc \
     vendor.qti.qspa-service
 
 # QTI fwk-detect
