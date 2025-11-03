@@ -51,6 +51,7 @@ PRODUCT_PACKAGES += \
     libhfp_pal \
     libhotword_intf \
     libmediautils_vendor.vendor \
+    libmemunreachable.vendor \
     libpaleventnotifier \
     libpalipcservice \
     libqcompostprocbundle \
@@ -343,6 +344,7 @@ PRODUCT_COPY_FILES += \
 
 # QSPA
 PRODUCT_PACKAGES += \
+    qspa_vendor.rc \
     vendor.qti.qspa-service
 
 # QTI fwk-detect
@@ -361,7 +363,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/omapi/hal_uuid_map_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hal_uuid_map_23.xml \
     $(LOCAL_PATH)/configs/omapi/hal_uuid_map_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hal_uuid_map_29.xml \
     $(LOCAL_PATH)/configs/omapi/hal_uuid_map_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hal_uuid_map_31.xml \
-    $(LOCAL_PATH)/configs/omapi/hal_uuid_map_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hal_uuid_map_config.xml
+    $(LOCAL_PATH)/configs/omapi/hal_uuid_map_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hal_uuid_map_config.xml \
+    $(LOCAL_PATH)/configs/permissions/com.android.se.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.se.xml
 endif
 
 # Sensors
