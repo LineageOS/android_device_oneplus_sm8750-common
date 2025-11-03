@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 13 (CPH2653_15.0.0.864(EX01)).
+## are from OnePlus 13 (CPH2653_16.0.0.210(EX01)).
 
 # CNE
 vendor/app/CACertService/CACertService.apk
@@ -39,7 +39,7 @@ vendor/etc/cne/mwqem.conf
 vendor/etc/cne/profileMwqem.xml
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml
 vendor/etc/init/cnd.rc
-vendor/etc/sysconfig/oem-defined-uids.xml
+vendor/etc/sysconfig/cacert-oem-defined-uids.xml
 vendor/etc/vintf/manifest/cacert-saidl.xml
 vendor/etc/vintf/manifest/datafactoryservice-saidl.xml
 vendor/etc/vintf/manifest/mwqem-saidl.xml
@@ -194,7 +194,6 @@ vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy
 vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml
 vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml
 vendor/etc/apdr.conf
-vendor/etc/batching.conf
 vendor/etc/gnss_antenna_info.conf
 vendor/etc/izat.conf
 vendor/etc/lowi.conf
@@ -247,15 +246,15 @@ vendor/lib64/vendor.qti.gnss-service.so
 
 # IMS
 system_ext/app/ImsDataChannelService/ImsDataChannelService.apk
-system_ext/app/ImsRcsService/ImsRcsService.apk
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
-system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml
+system_ext/etc/permissions/vendor.qti.imsdatachannel.xml
 system_ext/etc/permissions/vendor.qti.imsdcservice.xml
 system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml
 system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
 system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar
 system_ext/framework/vendor.qti.ims.connectionaidlservice-V1-java.jar
 system_ext/framework/vendor.qti.ims.datachannelservice-V2-java.jar
+system_ext/framework/vendor.qti.ims.datachannelservice-V3-java.jar
 system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar
 system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar
 system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar
@@ -268,6 +267,7 @@ system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar
 system_ext/framework/vendor.qti.ims.rcsuce-V1.1-java.jar
 system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar
 system_ext/framework/vendor.qti.ims.rcsuceaidlservice-V1-java.jar
+system_ext/framework/vendor.qti.imsdatachannel.jar
 system_ext/lib64/lib-imsvideocodec.so
 system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtextutils.so
@@ -275,7 +275,9 @@ system_ext/lib64/lib-imsvtutils.so
 system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so
 system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
 system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so
+system_ext/lib64/vendor.qti.ImsRtpService-V2-ndk.so
 system_ext/lib64/vendor.qti.ims.datachannelservice-V2-ndk.so
+system_ext/lib64/vendor.qti.ims.datachannelservice-V3-ndk.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
 system_ext/priv-app/ims/ims.apk
@@ -307,6 +309,7 @@ vendor/lib64/lib-rtpcore.so
 vendor/lib64/lib-rtpsl.so
 vendor/lib64/librcc.so
 vendor/lib64/vendor.oplus.hardware.ims-V1-ndk.so
+vendor/lib64/vendor.oplus.hardware.subsys-V5-ndk.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.oplus.hardware.subsys_imsrtp-V1-ndk.so
 vendor/lib64/vendor.qti.ImsRtpService-V1-ndk.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.ImsRtpService-aidl-Impl.so
@@ -319,6 +322,9 @@ vendor/lib64/vendor.qti.ims.imscmaidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.ims.rcssipaidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.ims.rcsuceaidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.ims.uceaidlservice-V1-ndk.so
+
+# QSPA
+vendor/etc/vintf/manifest/qspa/qspa-modem.xml
 
 # RemoteFS
 vendor/bin/rmt_storage
@@ -357,9 +363,10 @@ odm/lib64/libradioapis.so
 odm/lib64/librfapis.so
 odm/lib64/libsubsys-service.so
 odm/lib64/libsubsys-utils.so
+odm/lib64/libvasapi.so
 odm/lib64/vendor.oplus.hardware.communicationcenter-V2-ndk.so
-odm/lib64/vendor.oplus.hardware.subsys-V3-ndk.so
-odm/lib64/vendor.oplus.hardware.subsys_radio-V4-ndk.so
+odm/lib64/vendor.oplus.hardware.subsys-V5-ndk.so
+odm/lib64/vendor.oplus.hardware.subsys_radio-V8-ndk.so
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/qti_libpermissions.xml
@@ -407,6 +414,7 @@ vendor/etc/seccomp_policy/qcrilnr@2.0.policy
 vendor/etc/seccomp_policy/qms.policy
 vendor/etc/seccomp_policy/syshealthmon.policy
 vendor/etc/vintf/manifest/android.hardware.radio.config.xml
+vendor/etc/vintf/manifest/android.hardware.secure_element.xml
 vendor/etc/vintf/manifest/deviceinfo-saidl.xml
 vendor/etc/vintf/manifest/qms-saidl.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml
@@ -470,7 +478,6 @@ vendor/lib64/qtiril-utils.so
 vendor/lib64/qtiwakelock.so
 vendor/lib64/vendor.oplus.hardware.appradioaidl-V1-ndk.so
 vendor/lib64/vendor.oplus.hardware.communicationcenter-V2-ndk.so;MODULE_SUFFIX=_vendor
-vendor/lib64/vendor.oplus.hardware.subsys-V3-ndk.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.hardware.data.connectionaidl-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.data.connectionfactory-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.data.dataactivity-V1-ndk.so
@@ -481,7 +488,7 @@ vendor/lib64/vendor.qti.hardware.radio.common-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.lpa-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.qcrilhook-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.radio.qtiradio-V13-ndk.so
+vendor/lib64/vendor.qti.hardware.radio.qtiradio-V14-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradioconfig-V6-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.uim-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client-V1-ndk.so
@@ -498,12 +505,11 @@ system/etc/permissions/uimremoteclient.xml
 system/etc/permissions/uimremoteserver.xml
 
 # Secure element
+odm/bin/hw/android.hardware.secure_element-service.qti
+odm/etc/init/android.hardware.secure_element-service.qti.rc
 odm/etc/vintf/manifest/secure_element-service.xml
-vendor/bin/hw/android.hardware.secure_element-service.qti
-vendor/etc/init/android.hardware.secure_element-service.qti.rc
-vendor/etc/permissions/com.android.se.xml
-vendor/etc/vintf/manifest/android.hardware.secure_element.xml
-vendor/etc/vintf/manifest/secure_element-service.xml:vendor/etc/vintf/manifest/secure_element-service-omapi.xml
+odm/etc/vintf/manifest/secure_element_omapi_service.xml
+odm/lib64/libsecurity_event_olc_vnd.so
 vendor/lib64/hw/libEseUtils.so
 vendor/lib64/libGPMTEEC_vendor.so
 vendor/lib64/libGPQeSE.so

@@ -93,7 +93,11 @@ on late-fs
 on post-fs-data
     mkdir /vendor/data/tombstones 0771 system system
     # Enable WLAN cold boot calibration
-    write /sys/kernel/cnss/fs_ready 1
+    on property:ro.boot.product.vendor.sku=sun
+        write /dev/kmsg "write /sys/kernel/cnss/fs_ready begin"
+        wait /sys/kernel/cnss/fs_ready
+        write /sys/kernel/cnss/fs_ready 1
+        write /dev/kmsg "write /sys/kernel/cnss/fs_ready end"
 
 on early-boot
     setprop ro.surface_flinger.supports_background_blur ${vendor.display.supports_background_blur}
@@ -107,6 +111,13 @@ on boot
     chmod 0660 /sys/devices/platform/soc/990000.spi/spi_master/spi0/spi0.0/trusted_touch_enable
     chown system /sys/devices/system/cpu/hyp_core_ctl/enable
     chown system /sys/devices/system/cpu/hyp_core_ctl/hcc_min_freq
+    write /sys/class/leds/vibrator/trigger "transient"
+    chown system system /sys/class/leds/vibrator/activate
+    chmod 0660 /sys/class/leds/vibrator/activate
+    chown system system /sys/class/leds/vibrator/duration
+    chmod 0660 /sys/class/leds/vibrator/duration
+    chown system system /sys/class/leds/vibrator/state
+    chmod 0660 /sys/class/leds/vibrator/state
 
 on property:vendor.display.lcd_density=560
    setprop dalvik.vm.heapgrowthlimit 256m

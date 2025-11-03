@@ -276,8 +276,8 @@ on post-fs-data
     mkdir /data/vendor/qtee 0770 system system
 
     #Create folder of camera
-    mkdir /data/vendor/camera 0770 camera camera
-
+    mkdir /data/vendor/camera 0777 camera camera
+    mkdir /data/vendor/camera_remote_dump 0777 root system
 
     #Create directory for tftp
     mkdir /data/vendor/tombstones 0771 system system
