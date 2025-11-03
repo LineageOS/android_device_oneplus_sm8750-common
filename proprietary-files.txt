@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 13 (CPH2653_15.0.0.864(EX01)).
+## are from OnePlus 13 (CPH2649_16.0.0.210(EX01)).
 
 # Current blobs with ELF checks disabled:
 # libar-pal depends on libagmclient and libar-gsl, which are gnu makefile targets
@@ -7,7 +7,6 @@
 # libmcs depends on libar-acdb, libagm, libats and liblx-osal, which are gnu makefile targets
 
 # ACDBs
-vendor/etc/acdbdata/ffv_models/ffv__7.1.1_0.1__eai_4.8_enpu_v5.pmd
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.2_enpuv5.pmd
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_4.6_enpuv5.pmd
 
@@ -85,7 +84,7 @@ vendor/lib64/libtensorflowlite_c.so
 vendor/lib64/libvui_dmgr.so
 vendor/lib64/libvui_dmgr_client.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModelAidl-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.qasr-V1-ndk.so
+vendor/lib64/vendor.qti.hardware.qasr-V2-ndk.so
 
 # Audio - old AIDL dependencies
 vendor/lib64/android.hardware.bluetooth.audio-impl.so:vendor/lib64/android.hardware.bluetooth.audio-impl_prebuilt.so;FIX_SONAME
@@ -189,7 +188,7 @@ vendor/etc/cne/mwqem.conf
 vendor/etc/cne/profileMwqem.xml
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml
 vendor/etc/init/cnd.rc
-vendor/etc/sysconfig/oem-defined-uids.xml
+vendor/etc/sysconfig/cacert-oem-defined-uids.xml
 vendor/etc/vintf/manifest/cacert-saidl.xml
 vendor/etc/vintf/manifest/datafactoryservice-saidl.xml
 vendor/etc/vintf/manifest/mwqem-saidl.xml
@@ -381,14 +380,12 @@ odm/etc/displaycolorfeaturecfg.xml
 odm/lib64/libdisplayfossfeature_nature.so
 odm/lib64/libdpaservice.so
 odm/lib64/vendor.oplus.hardware.displaycolorfeature-V1-ndk.so
-odm/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so;MODULE_SUFFIX=_odm
+odm/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so
 vendor/bin/feature_enabler_client
 vendor/etc/init/feature_enabler_client.rc
 vendor/etc/2024-09-06_platform_RSA_SM8750_license_1c6f20f8-67d1-46ef-818d-469363847d91.pfm
 vendor/etc/platform_RSA_SM8750_license_c8338967-b56e-4693-ae1b-7a17ac371ff6.pfm
 vendor/lib64/libPanelChaplin.so
-vendor/lib64/vendor.oplus.hardware.displaycolorfeature-V1-ndk.so;MODULE_SUFFIX=_vendor
-vendor/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so;MODULE_SUFFIX=_vendor
 
 # Display postprocessing
 vendor/bin/ppd
@@ -423,12 +420,10 @@ vendor/bin/vendor.dpmd
 vendor/etc/dpm_vndr/vendor.dpm.conf
 vendor/etc/init/vendor.dpmd.rc
 vendor/etc/vintf/manifest/dpm-saidl.xml
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.libdpmctmgr.so
 vendor/lib64/vendor.libdpmfdmgr.so
 vendor/lib64/vendor.libdpmframework.so
 vendor/lib64/vendor.libdpmtcm.so
-vendor/lib64/vendor.qti.hardware.dpmaidlservice-V1-ndk.so;MODULE_SUFFIX=_vendor
 
 # DSP
 vendor/bin/dspservice
@@ -436,10 +431,8 @@ vendor/etc/init/vendor.qti.hardware.dsp-service.rc
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 vendor/etc/vintf/manifest/vendor.qti.hardware.dsp-service.xml
 vendor/lib64/vendor.qti.hardware.dsp-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
 # DSP modules
-vendor/lib64/rfs/dsp/libQ6MSFR_manager_skel.so
 vendor/lib64/rfs/dsp/libVppAisQnnHtp.so
 vendor/lib64/rfs/dsp/libVppFrcQnnHtp.so
 vendor/lib64/rfs/dsp/libapn_dsp_skel.so
@@ -455,7 +448,6 @@ vendor/lib64/rfs/dsp/libhdr_skel.so
 vendor/lib64/rfs/dsp/libmobilenet_dsp_frc.so
 vendor/lib64/rfs/dsp/libmobilenet_dsp_frc_networks.so
 vendor/lib64/rfs/dsp/libnsp_ipc_cdsp_skel.so
-vendor/lib64/rfs/dsp/libnspsuperresolutionproviderextension.so
 vendor/lib64/rfs/dsp/libosie_skel.so
 vendor/lib64/rfs/dsp/libqsegnetengine_dsp_skel.so
 vendor/lib64/rfs/dsp/libscveT2T_skel.so
@@ -551,27 +543,26 @@ vendor/lib64/hw/vulkan.adreno.so
 vendor/bin/hexlpservice
 vendor/etc/init/hexlpservice.rc
 vendor/etc/vintf/manifest/vendor.qti.hardware.hexlp-service.xml
-vendor/lib64/libnspdependency.so
-vendor/lib64/libnspdescriptorhandler.so
-vendor/lib64/libnspdiag.so
-vendor/lib64/libnspextensionloader.so
+vendor/lib64/libnspdependencyservice.so
+vendor/lib64/libnspdescriptorhandlerservice.so
+vendor/lib64/libnspdiagservice.so
+vendor/lib64/libnspextensionloaderservice.so
+vendor/lib64/libnspextensionsuperresolutionservice.so
 vendor/lib64/libnspframework.so
-vendor/lib64/libnspframeworkcore.so
-vendor/lib64/libnspframeworkcoreutility.so
-vendor/lib64/libnspgraphing.so
-vendor/lib64/libnspipc.so
-vendor/lib64/libnsposal.so
-vendor/lib64/libnspresource.so
-vendor/lib64/libnspscheduler.so
-vendor/lib64/libnspsession.so
-vendor/lib64/libnspsuperresolutionserviceextension.so
-vendor/lib64/libnsptransaction.so
+vendor/lib64/libnspframeworkcoreservice.so
+vendor/lib64/libnspframeworkcoreutilityservice.so
+vendor/lib64/libnspgraphingservice.so
+vendor/lib64/libnspipcservice.so
+vendor/lib64/libnsposalservice.so
+vendor/lib64/libnspresourceservice.so
+vendor/lib64/libnspschedulerservice.so
+vendor/lib64/libnspsessionservice.so
+vendor/lib64/libnsptransactionservice.so
 vendor/lib64/vendor.qti.hardware.hexlp-V1-ndk.so
 
 # Horae
 odm/etc/horae/horae_target.conf
 system/lib64/libostatslog.so:system_ext/lib64/libostatslog.so
-system/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so:system_ext/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so
 system_ext/bin/horae
 system_ext/etc/horae/horae.conf
 system_ext/etc/init/horae.rc
@@ -699,19 +690,16 @@ odm/lib64/libaiboost_te.so;FIX_SONAME
 odm/lib64/libaiboost_ubwc.so
 
 # OPLUS Charger
-odm/bin/hw/vendor.oplus.hardware.charger-V7-service
+odm/bin/hw/vendor.oplus.hardware.charger-V9-service
 odm/bin/hw/wlschgd
-odm/etc/init/vendor.oplus.hardware.charger-V7-service.rc
+odm/etc/init/vendor.oplus.hardware.charger-V9-service.rc
 odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
 odm/etc/charge.cfg
 odm/lib64/libGaiaClient_vnd.so
 
 # OPLUS Log Core
 odm/lib64/libolc_vnd.so
-odm/lib64/vendor.oplus.hardware.olc2-V1-ndk.so
-odm/lib64/vendor.oplus.hardware.olc2-V2-ndk.so
-vendor/lib64/libolc_vnd.so;MODULE_SUFFIX=_vendor
-vendor/lib64/vendor.oplus.hardware.olc2-V2-ndk.so;MODULE_SUFFIX=_vendor
+odm/lib64/vendor.oplus.hardware.olc2-V3-ndk.so
 
 # OPLUS OSense
 odm/lib64/libosenseaidlhalclient.so
@@ -719,10 +707,7 @@ odm/lib64/libosensenativeproxy_client.so
 vendor/lib64/libosensenativeproxy_client.so;MODULE_SUFFIX=_vendor
 
 # OPLUS Project
-odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service
-odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc
-odm/etc/vintf/manifest/manifest_oplus_stability_project_aidl.xml
-odm/lib64/vendor.oplus.hardware.stability.oplus_project-V2-ndk.so
+odm/lib64/vendor.oplus.hardware.stability.oplus_project-V3-ndk.so
 vendor/lib64/vendor.oplus.hardware.stability.oplus_project-V1-ndk.so
 
 # OPLUS URCC
@@ -802,6 +787,7 @@ vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-perfextn-intf.so
 vendor/lib64/libqti-qesdk-secure.so
+vendor/lib64/libqti-s3tf.so
 vendor/lib64/libqti-scenariod.so
 vendor/lib64/libqti-util.so
 vendor/lib64/libqti-utils.so
@@ -841,8 +827,6 @@ vendor/etc/init/init.qccvendor.rc
 vendor/etc/vintf/manifest/vendor.qti.qccvndhal_aidl-service.xml
 vendor/lib64/libqcc_file_agent.so
 vendor/lib64/libqcc_sdk.so
-vendor/lib64/vendor.qti.qccsyshal_aidl-V1-ndk.so;MODULE_SUFFIX=_vendor
-vendor/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.qccvndhal_aidl-halimpl.so
 
 # QCV
@@ -1013,14 +997,12 @@ vendor/etc/sensors/config/pakala_qrd_default_sensors.json
 vendor/etc/sensors/config/pakala_qrd_icm4x6xx_0.json
 vendor/etc/sensors/config/pakala_qrd_mmc56x3x_0.json
 vendor/etc/sensors/config/pakala_qrd_tmd3765_0.json
-vendor/etc/sensors/config/pakala_qsh_ble_0.json
 vendor/etc/sensors/config/pakala_sht4x_0.json
 vendor/etc/sensors/config/pakala_sx932x_0.json
 vendor/etc/sensors/config/pakala_tmd3765_0.json
 vendor/etc/sensors/config/pakala_vertigo_lsm6dso_0.json
 vendor/etc/sensors/config/pakala_vertigo_lsm6dso_1.json
 vendor/etc/sensors/config/pakala_vertigo_mmc56x3x_0.json
-vendor/etc/sensors/config/qsh_ble.json
 vendor/etc/sensors/config/sns_amd.json
 vendor/etc/sensors/config/sns_amd_sw_enabled.json
 vendor/etc/sensors/config/sns_aont.json
@@ -1210,7 +1192,6 @@ vendor/lib64/libwfduibcsinkinterface_vendor.so
 vendor/lib64/libwfduibcsrc_vendor.so
 vendor/lib64/libwfduibcsrcinterface_vendor.so
 vendor/lib64/libwfdutils_proprietary.so
-vendor/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
 
 # vi:ft=conf
