@@ -23,6 +23,7 @@ vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.feature.hfp.enable=true
 vendor.audio.feature.kpi_optimize.enable=true
 vendor.audio.flac.sw.decoder.24bit=true
+vendor.audio.hal.aidl.enabled=true
 vendor.audio.hal.output.suspend.supported=true
 vendor.audio_hal.period_size=192
 vendor.audio_hal.timecheck_timeoutMS=8000
@@ -131,7 +132,7 @@ vendor.gatekeeper.disable_spu=true
 vendor.gatekeeper.is_security_level_spu=0
 
 # Graphics
-debug.graphics.game_default_frame_rate.disabled=1
+debug.graphics.game_default_frame_rate.disabled=0
 debug.sf.auto_latch_unsignaled=0
 debug.sf.early.app.duration=13666666
 debug.sf.earlyGl.app.duration=13666666
@@ -177,9 +178,6 @@ media.c2.hal.selection=aidl
 media.stagefright.audio.deep=false
 vendor.media.omx=0
 
-# Netflix
-ro.netflix.bsp_rev=Q8750-39568-1
-
 # Pasr
 vendor.pasr.activemode.enabled=true
 
@@ -219,6 +217,7 @@ vendor.usb.use_ffs_mtp=1
 vendor.usb.use_gadget_hal=1
 
 # Widevine
+vendor.wv.oemcrypto.debug.enable_external_display_check=false
 vendor.wv.oemcrypto.debug.enable_hlos_data_path=true
 
 # WiFi
