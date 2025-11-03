@@ -32,7 +32,7 @@
     </hal>
     <hal format="aidl">
         <name>vendor.oplus.hardware.subsys_interface.subsys_radio</name>
-        <version>4</version>
+        <version>8</version>
         <interface>
             <name>ISubsysRadio</name>
             <instance>slot1</instance>
