@@ -711,11 +711,6 @@ odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service
 odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_stability_project_aidl.xml
 
-# OPLUS URCC
-odm/etc/uah/uahconfig.pb
-odm/lib64/liboplus-uah-client.so
-odm/lib64/libuahcore.so
-
 # PD
 vendor/bin/pd-mapper
 vendor/lib64/libpdmapper.so
