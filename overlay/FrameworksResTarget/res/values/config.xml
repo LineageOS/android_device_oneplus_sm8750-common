@@ -58,4 +58,7 @@
         <item>/apex/com.android.art/javalib/core-libart.jar</item>
     </string-array>
 
+    <!-- Whether this device is supporting the camera toggle -->
+    <bool name="config_supportsCamToggle">true</bool>
+
 </resources>
