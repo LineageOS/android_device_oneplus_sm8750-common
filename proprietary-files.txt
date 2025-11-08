@@ -322,9 +322,8 @@ vendor/lib64/libtinyxml2_1.so
 vendor/lib64/libubwcp.so
 
 # Display (SDM) - from pagani CPH2723_15.0.2.303(EX01)
-odm/lib64/libclstc_color_feature.so|5e3c1cc5f5d25e85f0a4b7705ed5aec242ce1af5
 odm/lib64/libdolbyclstc.so|ad80bdfc09e8619e7d494247311e056ede42cd7a
-vendor/etc/clstc_config_library.xml|b650f78dd724268721551d4e94bf1d1db775ee9a
+vendor/etc/clstc_config_library.xml|b650f78dd724268721551d4e94bf1d1db775ee9a|42061e1e021cb83379fe5a32f0ab0075e1416d8c
 vendor/lib64/libclstc_algorithm_adapter.so|bfad4deb0832881ee00fd91ace2d2e1a678188a1
 vendor/lib64/libclstc_gcp_adapter.so|dc8f29b436a7aabab5db33190365ce605af185f6
 vendor/lib64/libclstc_tm.so|89a96fd6c130cd930ca90563dee3d7da6de4503f
@@ -375,18 +374,13 @@ odm/etc/PanelChaplin/Lut3D_311
 odm/etc/PanelChaplin/Lut3D_312
 odm/etc/init/hw/init.oplus.display.rc
 odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc
-odm/etc/vintf/manifest/manifest_displaycolorfeature_aidl.xml
 odm/etc/vintf/manifest/manifest_oplus_displaypanelfeature_aidl.xml
-odm/etc/displaycolorfeaturecfg.xml
-odm/lib64/libdisplayfossfeature_nature.so
 odm/lib64/libdpaservice.so
-odm/lib64/vendor.oplus.hardware.displaycolorfeature-V1-ndk.so
 vendor/bin/feature_enabler_client
 vendor/etc/init/feature_enabler_client.rc
 vendor/etc/2024-09-06_platform_RSA_SM8750_license_1c6f20f8-67d1-46ef-818d-469363847d91.pfm
 vendor/etc/platform_RSA_SM8750_license_c8338967-b56e-4693-ae1b-7a17ac371ff6.pfm
 vendor/lib64/libPanelChaplin.so
-vendor/lib64/vendor.oplus.hardware.displaycolorfeature-V1-ndk.so;MODULE_SUFFIX=_vendor
 
 # Display postprocessing
 vendor/bin/ppd
