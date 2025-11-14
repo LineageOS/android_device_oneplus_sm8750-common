@@ -22,6 +22,30 @@
       },
       "revId": "d2da3048ad9b8061fd07794059bd25924d7f52ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3e6ec95_dbbe4f35",
+        "filename": "proprietary-files-phone.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 371,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-11-14T21:14:47Z",
+      "side": 0,
+      "message": "They have this (odm/etc/permissions/com.oplus.nfc_feature.xml):\n\n```\n\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\"?\u003e\n\u003cpermissions\u003e\n\u003c!-- Devices that support MIFARE need to declare NXP\u0027s feature constant --\u003e\n    \u003cfeature name\u003d\"com.nxp.mifare\" /\u003e\n     \u003c!-- This feature indicates that the device supports host-based\n          NFC card emulation --\u003e\n    \u003cfeature name\u003d\"android.hardware.nfc.hce\" /\u003e\n    \u003c!-- This feature indicates that the device supports host-based\n         NFC-F card emulation --\u003e\n    \u003cfeature name\u003d\"android.hardware.nfc.hcef\" /\u003e\n    \u003c!-- This is the standard feature indicating that the device can communicate\n         using Near-Field Communications (NFC). --\u003e\n    \u003cfeature name\u003d\"android.hardware.nfc\" /\u003e\n    \u003cfeature name\u003d\"android.hardware.nfc.any\" /\u003e\n    \u003cfeature name\u003d\"android.hardware.nfc.ese\" /\u003e\n    \u003cfeature name\u003d\"android.hardware.se.omapi.uicc\" /\u003e\n    \u003cfeature name\u003d\"android.hardware.se.omapi.ese\" /\u003e\n    \u003cfeature name\u003d\"com.android.se\" /\u003e\n    \u003clibrary name\u003d\"com.nxp.nfc\"\n        file\u003d\"/system/framework/com.nxp.nfc.jar\" /\u003e\n    \u003clibrary name\u003d\"com.android.nfc_extras\"\n        file\u003d\"/system/framework/com.android.nfc_extras.jar\" /\u003e\n\u003c/permissions\u003e\n```",
+      "parentUuid": "77ec9602_45e9cf1a",
+      "range": {
+        "startLine": 371,
+        "startChar": 0,
+        "endLine": 371,
+        "endChar": 41
+      },
+      "revId": "d2da3048ad9b8061fd07794059bd25924d7f52ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
