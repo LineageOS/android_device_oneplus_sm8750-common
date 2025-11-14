@@ -46,6 +46,30 @@
       },
       "revId": "d2da3048ad9b8061fd07794059bd25924d7f52ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "849505f7_ab207f22",
+        "filename": "proprietary-files-phone.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 371,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2025-11-14T21:27:21Z",
+      "side": 0,
+      "message": "then we need a copy in device, it originates from vendor/qcom/proprietary/securemsm/esehal/vintf_res",
+      "parentUuid": "d3e6ec95_dbbe4f35",
+      "range": {
+        "startLine": 371,
+        "startChar": 0,
+        "endLine": 371,
+        "endChar": 41
+      },
+      "revId": "d2da3048ad9b8061fd07794059bd25924d7f52ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
