@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "205d36e7_a2ce0201",
+        "filename": "overlay/CarrierConfigResCommon/res/xml/vendor.xml",
+        "patchSetId": 24
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-11-15T17:38:04Z",
+      "side": 1,
+      "message": "This doesn\u0027t seem to be supported in AOSP. Can\u0027t find any reference of it.",
+      "range": {
+        "startLine": 49,
+        "startChar": 25,
+        "endLine": 49,
+        "endChar": 64
+      },
+      "revId": "afb9d457c477a67a89056eccbb4fcea35a817205",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
