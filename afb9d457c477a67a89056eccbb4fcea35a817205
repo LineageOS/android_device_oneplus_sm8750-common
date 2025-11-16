@@ -22,6 +22,30 @@
       },
       "revId": "afb9d457c477a67a89056eccbb4fcea35a817205",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44d82b7d_c7d2a72a",
+        "filename": "overlay/CarrierConfigResCommon/res/xml/vendor.xml",
+        "patchSetId": 24
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2025-11-16T11:43:52Z",
+      "side": 1,
+      "message": "it\u0027s harmless so not worth cleaning up",
+      "parentUuid": "205d36e7_a2ce0201",
+      "range": {
+        "startLine": 49,
+        "startChar": 25,
+        "endLine": 49,
+        "endChar": 64
+      },
+      "revId": "afb9d457c477a67a89056eccbb4fcea35a817205",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
