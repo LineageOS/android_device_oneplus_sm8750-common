@@ -699,10 +699,7 @@ odm/lib64/libGaiaClient_vnd.so
 
 # OPLUS Log Core
 odm/lib64/libolc_vnd.so
-odm/lib64/vendor.oplus.hardware.olc2-V1-ndk.so
-odm/lib64/vendor.oplus.hardware.olc2-V2-ndk.so
 vendor/lib64/libolc_vnd.so;MODULE_SUFFIX=_vendor
-vendor/lib64/vendor.oplus.hardware.olc2-V2-ndk.so;MODULE_SUFFIX=_vendor
 
 # OPLUS OSense
 odm/lib64/libosenseaidlhalclient.so
