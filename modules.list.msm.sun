@@ -122,3 +122,5 @@ oplus_mdmrst.ko
 olc.ko
 kernel_fb.ko
 qcom-cpufreq-hw.ko
+tms_device_modules.ko
+oplus_nfc.ko
