@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "57727c98_75c40d14",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-26T03:50:58Z",
+      "side": 1,
+      "message": "it is already enable here 6f69079306ec708f39ab74cbe9b252f479612cd8",
+      "revId": "1f089349e5a41df68d0ff4a05134bda1b13bb184",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
