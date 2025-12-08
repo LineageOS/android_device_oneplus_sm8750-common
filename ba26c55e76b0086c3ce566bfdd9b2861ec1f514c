@@ -16,6 +16,23 @@
       "message": "This should fix: https://github.com/LineageOS/android_device_oneplus_sm8750-common/commit/7328efb13b231306127f44c295289d42a57e96be",
       "revId": "ba26c55e76b0086c3ce566bfdd9b2861ec1f514c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a20e0e80_c479bac3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-08T13:51:10Z",
+      "side": 1,
+      "message": "Isn\u0027t it in devices?",
+      "revId": "ba26c55e76b0086c3ce566bfdd9b2861ec1f514c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
