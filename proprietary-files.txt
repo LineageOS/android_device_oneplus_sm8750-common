@@ -80,7 +80,7 @@ vendor/lib64/liblistensoundmodelaidl.so
 vendor/lib64/libmcs.so;DISABLE_CHECKELF
 vendor/lib64/libqasr.so
 vendor/lib64/libqtigefar.so;DISABLE_DEPS
-vendor/lib64/libtensorflowlite_c.so
+vendor/lib64/libtensorflowlite_c.so:vendor/lib64/libtensorflowlite_c_vendor.so;FIX_SONAME
 vendor/lib64/libvui_dmgr.so
 vendor/lib64/libvui_dmgr_client.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModelAidl-V1-ndk.so
