@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0bf576f_015486f9",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-12T23:29:31Z",
+      "side": 1,
+      "message": "Can also be removed if we manage to build libaudioserviceexampleimpl from sources.",
+      "range": {
+        "startLine": 67,
+        "startChar": 4,
+        "endLine": 67,
+        "endChar": 27
+      },
+      "revId": "69e34e79ce3b7444da6e1d51819f1419a4a0ac56",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
