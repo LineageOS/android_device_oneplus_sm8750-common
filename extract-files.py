@@ -126,6 +126,8 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/liblistensoundmodel2vendor.so',
     ): blob_fixup()
         .replace_needed('libtensorflowlite_c.so', 'libtensorflowlite_c_vendor.so'),
+    'vendor/lib64/libaudioserviceexampleimpl.so': blob_fixup()
+        .add_needed('libaudioutils_shim.so'),
     (
         'vendor/lib64/libapengine.so',
         'vendor/lib64/libqti-perfd.so',
