@@ -70,7 +70,8 @@ PRODUCT_PACKAGES += \
     libdynamicsprocessingaidl \
     libloudnessenhanceraidl \
     libreverbaidl \
-    libvisualizeraidl
+    libvisualizeraidl \
+    libaudio_aidl_conversion_common_ndk.vendor
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8750/audio/primary-hal
 CONFIG_HAL_SRC_DIR := $(AUDIO_HAL_DIR)/configs/sun
