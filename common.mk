@@ -65,6 +65,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libalsautilsv2.vendor \
+    libaudio_aidl_conversion_common_ndk.vendor \
     libbundleaidl \
     libdownmixaidl \
     libdynamicsprocessingaidl \
