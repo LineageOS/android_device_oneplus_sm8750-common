@@ -105,6 +105,8 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libqti-perfd.so',
     ): blob_fixup()
         .replace_needed('vendor.qti.hardware.display.config-V5-ndk.so', 'vendor.qti.hardware.display.config-V12-ndk.so'),
+    'vendor/lib64/libaudioserviceexampleimpl.so': blob_fixup()
+        .add_needed('libaudioutils_shim.so'),
     (
         'vendor/lib64/libcwb_qcom_aidl.so',
         'vendor/lib64/libsdmclient.so',
