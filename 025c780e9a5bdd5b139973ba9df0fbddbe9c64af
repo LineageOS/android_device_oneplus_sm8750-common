@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6c9dccc_459cf4d6",
+        "filename": "vendor.prop",
+        "patchSetId": 2
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 36404
+      },
+      "writtenOn": "2025-12-21T03:58:03Z",
+      "side": 1,
+      "message": "tested locally. seems to work on CPH2655, allows \"webcam\" to be selected in the usb options.",
+      "revId": "025c780e9a5bdd5b139973ba9df0fbddbe9c64af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
