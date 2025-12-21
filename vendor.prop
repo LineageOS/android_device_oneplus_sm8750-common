@@ -215,6 +215,7 @@ vendor.usb.rmnet.inst.name=rmnet
 vendor.usb.rndis.func.name=gsi
 vendor.usb.use_ffs_mtp=1
 vendor.usb.use_gadget_hal=1
+ro.usb.uvc.enabled=true
 
 # VM
 ro.vendor.vm.ssr.enable=false
