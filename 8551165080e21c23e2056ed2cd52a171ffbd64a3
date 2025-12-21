@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41108deb_4ae22cbb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2025-12-21T02:20:07Z",
+      "side": 1,
+      "message": "Fixes fast roaming.\nNow I can move from APs to APs and not having to wait a few seconds for WiFi to reconnect and renegotiate with the APs.",
+      "revId": "8551165080e21c23e2056ed2cd52a171ffbd64a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
