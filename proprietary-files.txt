@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 13 (CPH2653_16.0.2.402(EX01)).
+## are from OnePlus 13 (CPH2653_16.0.3.501(EX01)).
 
 # Current blobs with ELF checks disabled:
 # libar-pal depends on libagmclient and libar-gsl, which are gnu makefile targets
@@ -575,9 +575,9 @@ odm/lib64/libaiboost_ubwc.so
 
 # OPLUS Charger
 odm/bin/hw/gauged
-odm/bin/hw/vendor.oplus.hardware.charger-V9-service
+odm/bin/hw/vendor.oplus.hardware.charger-V10-service
 odm/bin/hw/wlschgd
-odm/etc/init/vendor.oplus.hardware.charger-V9-service.rc
+odm/etc/init/vendor.oplus.hardware.charger-V10-service.rc
 odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
 odm/etc/charge.cfg
 odm/lib64/libGaiaClient_vnd.so
