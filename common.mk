@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2025 The LineageOS Project
+# Copyright (C) 2021-2026 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -50,8 +50,6 @@ PRODUCT_PACKAGES += \
     libfmpal \
     libhfp_pal \
     libhotword_intf \
-    libmediautils_vendor.vendor \
-    libmemunreachable.vendor \
     libpaleventnotifier \
     libpalipcservice \
     libqcompostprocbundle \
@@ -64,14 +62,21 @@ PRODUCT_PACKAGES += \
     qtiaudiohalvendorextn
 
 PRODUCT_PACKAGES += \
-    libalsautilsv2.vendor \
-    libaudioutils_shim \
     libbundleaidl \
     libdownmixaidl \
     libdynamicsprocessingaidl \
     libloudnessenhanceraidl \
     libreverbaidl \
     libvisualizeraidl
+
+PRODUCT_PACKAGES += \
+    android.hardware.audio.common-V1-ndk.vendor \
+    android.hardware.audio.core-V2-ndk.vendor \
+    android.hardware.audio.core.sounddose-V1-ndk.vendor \
+    libalsautilsv2.vendor \
+    libaudioutils_shim \
+    libmediautils_vendor.vendor \
+    libmemunreachable.vendor
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8750/audio/primary-hal
 CONFIG_HAL_SRC_DIR := $(AUDIO_HAL_DIR)/configs/sun
