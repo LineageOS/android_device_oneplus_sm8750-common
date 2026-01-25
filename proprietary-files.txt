@@ -43,6 +43,7 @@ odm/etc/audio_algos_ver/OPSPT_Version.txt
 odm/etc/audio_algos_ver/OPSR_Version.txt
 odm/etc/audio_algos_ver/OPVE_Version.txt
 odm/etc/init/init.audio.rc
+odm/lib64/libSchedAssistExtImpl_vendor.so
 odm/lib64/libtfa98xx.so
 vendor/etc/models/acd/environment.eai
 vendor/etc/models/acd/event.eai
