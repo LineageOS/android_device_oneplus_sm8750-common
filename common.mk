@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
     qtiaudiohalvendorextn
 
 PRODUCT_PACKAGES += \
+    libaudioaidlcommon.vendor \
     libbundleaidl \
     libdownmixaidl \
     libdynamicsprocessingaidl \
