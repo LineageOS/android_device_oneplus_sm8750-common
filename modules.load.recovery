@@ -375,6 +375,7 @@ oplus_network_esim.ko
 oplus_network_oem_qmi.ko
 oplus_network_rf_cable_monitor.ko
 oplus_network_sim_detect.ko
+oplus_nfc.ko
 oplus_secure_common.ko
 oplus_sensor_deviceinfo.ko
 oplus_sensor_feedback.ko
