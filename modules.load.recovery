@@ -350,6 +350,7 @@ oplus_bsp_tp_ft8057p.ko
 oplus_bsp_tp_goodix_comnon.ko
 oplus_bsp_tp_gt9916.ko
 oplus_bsp_tp_gt9966.ko
+oplus_bsp_tp_hbp_goodix_gt99x6.ko
 oplus_bsp_tp_hbp_syna_s3910.ko
 oplus_bsp_tp_ilitek7807s.ko
 oplus_bsp_tp_ilitek_common.ko
