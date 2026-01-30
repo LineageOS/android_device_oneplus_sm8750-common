@@ -16,6 +16,24 @@
       "message": "for the record it\u0027s referenced by camera hal, dunno if actually in use\n```\n❯ strings lib64/hw/camera.qcom.so | rg qti-display\nandroid.hardware.graphics.mapper@4.0-impl-qti-display\n```",
       "revId": "4f94cfbe4d7427e676a9d86f28aba81b67003e74",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a16477d7_2d151242",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-30T14:25:05Z",
+      "side": 1,
+      "message": "Camera works fine without it, at least on erhai.",
+      "parentUuid": "c86516b1_e918b33d",
+      "revId": "4f94cfbe4d7427e676a9d86f28aba81b67003e74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
