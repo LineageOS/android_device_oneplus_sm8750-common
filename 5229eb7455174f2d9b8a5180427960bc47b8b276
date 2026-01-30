@@ -52,6 +52,24 @@
       "parentUuid": "48b349f9_c2437866",
       "revId": "5229eb7455174f2d9b8a5180427960bc47b8b276",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ded300ca_5a0b87e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33800
+      },
+      "writtenOn": "2026-01-30T13:04:31Z",
+      "side": 1,
+      "message": "Seen changes in makefile with this authorship",
+      "parentUuid": "a91bc171_11555340",
+      "revId": "5229eb7455174f2d9b8a5180427960bc47b8b276",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
