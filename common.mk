@@ -33,13 +33,6 @@ PRODUCT_PACKAGES += \
     otapreopt_script \
     xbl_config_arb_check
 
-# Alert slider
-ifneq ($(TARGET_IS_TABLET),true)
-PRODUCT_PACKAGES += \
-    KeyHandler \
-    tri-state-key-calibrate
-endif
-
 # Audio
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
