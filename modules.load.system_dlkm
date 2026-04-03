@@ -72,7 +72,6 @@ diag.ko
 tipc.ko
 vmw_vsock_virtio_transport.ko
 virtio_pci_legacy_dev.ko
-tls.ko
 
 # _ARM64_GKI_MODULES_LIST
 gzvm.ko
