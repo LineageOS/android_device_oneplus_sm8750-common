@@ -185,6 +185,7 @@ vendor.pasr.activemode.enabled=true
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=3.0
 ro.vendor.perf.scroll_opt=1
+ro.vendor.powerhal.backend=qti
 ro.vendor.qspm.enable=true
 vendor.perf.framepacing.enable=1
 vendor.perf.framepacing.window_apis=0x04
