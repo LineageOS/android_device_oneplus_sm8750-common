@@ -184,8 +184,6 @@ vendor/lib64/libcwb_qcom_aidl.so
 vendor/lib64/libhdrvivid.so
 vendor/lib64/libhwcsensor.so
 vendor/lib64/libsdm-brightnessaware-parser.so
-vendor/lib64/vendor.oplus.hardware.cwb-V2-ndk.so
-vendor/lib64/vendor.oplus.hardware.cwb@1.0.so
 
 # Display (HDR)
 vendor/lib64/libhdr_backlight_adapter.so
