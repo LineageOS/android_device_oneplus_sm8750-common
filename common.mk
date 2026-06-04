@@ -349,6 +349,7 @@ PRODUCT_PACKAGES += \
     liboplus-uah-client
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/qcom/opensource/power/config/sun/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
 # QSPA
