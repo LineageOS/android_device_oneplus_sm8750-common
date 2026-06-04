@@ -34,7 +34,7 @@
 
         <!-- Type="1", main launch boost of 2sec -->
         <Config
-            Id="0x00001081" Type="1" Enable="false" Timeout="600" Target="sun"
+            Id="0x00001081" Type="1" Enable="true" Timeout="600" Target="sun"
             Resources="0x40C00000, 0x1, 0x40804000, 0xEFFF, 0x40804200, 0xEFFF,
                        0x40800000, 0xEFFF, 0x40800200, 0xEFFF, 0x41848000, 0x127A78,
                        0x41844000, 0x127A78, 0x42C10000, 0x1, 0x43488000, 0x48A5A8,
@@ -59,7 +59,7 @@
 
         <!-- Type="3", FA launch boost of 15sec -->
         <Config
-            Id="0x00001081" Type="3" Enable="false" Timeout="15000" Target="sun"
+            Id="0x00001081" Type="3" Enable="true" Timeout="15000" Target="sun"
             Resources="0x40C00000, 0x3,
                       0x40C74000, 0xFF, 0x40408000, 0x63,
                       0x40CE0200, 0x003C0028, 0x42C50000, 0x3FF, 0x42C54000, 0x400" />
@@ -258,7 +258,7 @@
 
         <!-- Type="7", main launch boost of 2sec -->
         <Config
-            Id="0x00001081" Type="7" Enable="false" Timeout="600" Target="sun"
+            Id="0x00001081" Type="7" Enable="true" Timeout="600" Target="sun"
             Resources="0x40C00000, 0x1, 0x40804000, 0xEFFF, 0x40804200, 0xEFFF,
                        0x40800000, 0xEFFF, 0x40800200, 0xEFFF,
                        0x41848000, 0x127A78, 0x41844000, 0x127A78, 0x42C10000, 0x1,
@@ -284,7 +284,7 @@
 
         <!-- Type="8", Main App Launch Boost : Duration governed by LAL -->
         <Config
-            Id="0x00001081" Type="8" Enable="false" Timeout="2000" Target="sun"
+            Id="0x00001081" Type="8" Enable="true" Timeout="2000" Target="sun"
             Resources="0x40C00000, 0x5,
                       0x40C74000, 0xFF, 0x40408000, 0x10,
                       0x40CE0200, 0x003C0028, 0x43488000, 0x14A528,
@@ -310,7 +310,7 @@
 
         <!-- Type="9", Main App Launch Boost : Duration governed by LGL -->
         <Config
-            Id="0x00001081" Type="9" Enable="false" Timeout="2000" Target="sun"
+            Id="0x00001081" Type="9" Enable="true" Timeout="2000" Target="sun"
             Resources="0x40C00000, 0x1,
                        0x40C74000, 0xFF, 0x40408000, 0x63,
                        0x40CE0200, 0x003C0028, 0x42C10000, 0x1,
@@ -393,7 +393,7 @@
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value-->
         <Config
-            Id="0x00001083" Enable="false" Timeout="400" Target="sun"
+            Id="0x00001083" Enable="true" Timeout="400" Target="sun"
             Resources="0x40804000, 0xFFF, 0x40804200, 0xFFF,
                        0x40800000, 0xFFF, 0x40800200, 0xFFF" />
         <!-- MPCTLV3_WALT_ADAPTIVE_HIGH_FREQ_BIG resource opcode, value -->
@@ -459,35 +459,35 @@
 
         <!-- Type="1", Vertical Scroll boost -->
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="sun" Fps="60"
+            Id="0x00001080" Type="1" Enable="true" Target="sun" Fps="60"
             Resources="0x41844000, 350000, 0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 6, 0x40808000, 600000, 0x40808200, 800000" />
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="sun" Fps="90"
+            Id="0x00001080" Type="1" Enable="true" Target="sun" Fps="90"
             Resources="0x41844000, 350000, 0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 6, 0x40808000, 600000, 0x40808200, 800000" />
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="sun" Fps="120"
+            Id="0x00001080" Type="1" Enable="true" Target="sun" Fps="120"
             Resources="0x41844000, 350000, 0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 6, 0x40808000, 600000, 0x40808200, 800000,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 2, 0x40CE0200, 0x0023000A" />
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="sun" Fps="144"
+            Id="0x00001080" Type="1" Enable="true" Target="sun" Fps="144"
             Resources="0x41844000, 350000, 0x4080C000, 1300000, 0x4080C200, 1300000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 6, 0x40808000, 600000, 0x40808200, 800000,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 2, 0x40CE0200, 0x0023000A" />
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="sun" Fps="180"
+            Id="0x00001080" Type="1" Enable="true" Target="sun" Fps="180"
             Resources="0x41844000, 350000, 0x4080C000, 1300000, 0x4080C200, 1300000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 6, 0x40808000, 600000, 0x40808200, 800000,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 2, 0x40CE0200, 0x0023000A" />
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="sun" Fps="240"
+            Id="0x00001080" Type="1" Enable="true" Target="sun" Fps="240"
             Resources="0x41844000, 350000, 0x4080C000, 1300000, 0x4080C200, 1300000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 6, 0x40808000, 600000, 0x40808200, 800000,
@@ -695,35 +695,35 @@
         <!-- TIMEOUT 80ms -->
         <!-- Type="4", Prefling boost -->
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="80" Target="sun" Fps="60"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sun" Fps="60"
             Resources="0x41844000, 350000, 0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 6, 0x40808000, 600000, 0x40808200, 800000" />
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="80" Target="sun" Fps="90"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sun" Fps="90"
             Resources="0x41844000, 350000, 0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 6, 0x40808000, 600000, 0x40808200, 800000" />
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="80" Target="sun" Fps="120"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sun" Fps="120"
             Resources="0x41844000, 350000, 0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 6, 0x40808000, 600000, 0x40808200, 800000,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 2, 0x40CE0200, 0x0023000A" />
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="80" Target="sun" Fps="144"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sun" Fps="144"
             Resources="0x41844000, 350000, 0x4080C000, 1300000, 0x4080C200, 1300000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 6, 0x40808000, 600000, 0x40808200, 800000,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 2, 0x40CE0200, 0x0023000A" />
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="80" Target="sun" Fps="180"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sun" Fps="180"
             Resources="0x41844000, 350000, 0x4080C000, 1300000, 0x4080C200, 1300000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 6, 0x40808000, 600000, 0x40808200, 800000,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 2, 0x40CE0200, 0x0023000A" />
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="80" Target="sun" Fps="240"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sun" Fps="240"
             Resources="0x41844000, 350000, 0x4080C000, 1300000, 0x4080C200, 1300000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 6, 0x40808000, 600000, 0x40808200, 800000,
@@ -879,7 +879,7 @@
 
         <!-- Type="", MTP boost -->
         <Config
-            Id="0x00001086" Enable="false" Target="sun"
+            Id="0x00001086" Enable="true" Target="sun"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40800000, 1800, 0x40C48000,0x3F" />
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- CPUBOOST_MAX_FREQ BIG Core resource opcode, value-->
@@ -1116,7 +1116,7 @@
         <!-- Type="", Package Install boost -->
 
         <Config
-            Id="0x00001088" Enable="false" Target="sun"
+            Id="0x00001088" Enable="true" Target="sun"
             Resources="0x40C00000, 0x2, 0x40804000, 0xFFF, 0x40804200, 0xFFF,
                        0x40800000,0xFFF, 0x40800200, 0xFFF, 0x40CA0000, 0,
                        0x40CCC000, 0" />
@@ -1165,7 +1165,7 @@
         <!-- Type="", Rotation latency boost -->
 
         <Config
-            Id="0x00001089" Enable="false" Timeout="1500" Target="sun"
+            Id="0x00001089" Enable="true" Timeout="1500" Target="sun"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804200, 0xFFF,
                        0x40800000,0xFFF, 0x40800200,0xFFF" />
 
@@ -1268,20 +1268,14 @@
     <!--Display on Resource -->
         <!-- Display on resource opcode, value -->
         <Config
-            Id="0x00001041" Enable="false" Timeout="0" Target="sun"
-            Resources="0x40000000, 1" />
-        <Config
-            Id="0x00001041" Enable="true" Timeout="0" Target="tuna,kera"
-            Resources="0x40000000, 1" />
+                Id="0x00001041" Enable="true" Timeout="0" Target="sun,tuna,kera"
+                Resources="0x40000000, 1" />
 
     <!--Display off Resource -->
         <!-- Display on resource opcode, value -->
         <Config
-            Id="0x00001040" Enable="false" Timeout="0" Target="sun"
-            Resources="0x40000000, 0x0" />
-        <Config
-            Id="0x00001040" Enable="true" Timeout="0" Target="tuna,kera"
-            Resources="0x40000000, 0x0" />
+                Id="0x00001040" Enable="true" Timeout="0" Target="sun,tuna,kera"
+                Resources="0x40000000, 0x0" />
 
     <!-- Doze hint -->
     <Config
@@ -1747,7 +1741,7 @@
         <!-- SCHED_MIN_TASK_UTIL_FOR_BOOST, value-->
         <!-- Type 5 Light Scrolls : Horizontal and Vertical 60 FPS -->
         <Config
-            Id="0x00001080" Type="5" Enable="false" Target="sun"
+            Id="0x00001080" Type="5" Enable="true" Target="sun"
             Resources="0x40C00000, 0x2, 0x41000000, 4, 0x40C78000, 0, 0x40C7C000, 0" />
 
         <!-- SCHEDBOOST resource opcode, value-->
@@ -1762,7 +1756,7 @@
         <!-- SCHED_UP_DOWN_MIGRATE PRIME resource opcode, value -->
         <!-- Type 5 Light Scrolls : Horizontal and Vertical 90+ FPS -->
         <Config
-            Id="0x00001080" Type="5" Enable="false" Target="sun" Fps="90"
+            Id="0x00001080" Type="5" Enable="true" Target="sun" Fps="90"
             Resources="0x40C00000, 0x2, 0x41000000, 4, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 998000, 0x4080C200, 998000,
                        0x40808000, 600000, 0x40808200, 800000,
@@ -1784,7 +1778,7 @@
         <!-- MPCTLV3_WALT_ADAPTIVE_LOW_FREQ_PRIME resource opcode, value -->
         <!-- Type 6 Medium Scrolls : Horizontal and Vertical 60 FPS -->
         <Config
-            Id="0x00001080" Type="6" Enable="false" Target="sun"
+            Id="0x00001080" Type="6" Enable="true" Target="sun"
             Resources="0x40C00000, 0x2, 0x41000000, 6, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 998000, 0x4080C200, 998000,
                        0x40808000, 600000, 0x40808200, 800000" />
@@ -1801,14 +1795,14 @@
         <!-- SCHED_UP_DOWN_MIGRATE PRIME resource opcode, value -->
         <!-- Type 6 Medium Scrolls : Horizontal and Vertical 90+ FPS -->
         <Config
-            Id="0x00001080" Type="6" Enable="false" Target="sun" Fps="90"
+            Id="0x00001080" Type="6" Enable="true" Target="sun" Fps="90"
             Resources="
                        0x40C00000, 0x2, 0x41000000, 6, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 998000, 0x4080C200, 998000,
                        0x40808000, 600000, 0x40808200, 800000,
                        0x41000200, 1" />
         <Config
-            Id="0x00001080" Type="6" Enable="false" Target="sun" Fps="120, 144, 180, 240"
+            Id="0x00001080" Type="6" Enable="true" Target="sun" Fps="120, 144, 180, 240"
             Resources="0x40C00000, 0x2, 0x41000000, 6, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40808000, 600000, 0x40808200, 800000,
@@ -1828,7 +1822,7 @@
 
         <!-- Type 7 Heavy Scrolls : Horizontal and Vertical 60 FPS -->
         <Config
-            Id="0x00001080" Type="7" Enable="false" Target="sun"
+            Id="0x00001080" Type="7" Enable="true" Target="sun"
             Resources="0x40C00000, 0x2, 0x41000000, 6, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40808000, 600000, 0x40808200, 800000,
@@ -1850,14 +1844,14 @@
         <!-- SCHED_UP_DOWN_MIGRATE PRIME resource opcode, value -->
         <!-- Type 7 Heavy Scrolls : Horizontal and Vertical 90+ FPS -->
         <Config
-            Id="0x00001080" Type="7" Enable="false" Target="sun" Fps="90"
+            Id="0x00001080" Type="7" Enable="true" Target="sun" Fps="90"
             Resources="0x40C00000, 0x2, 0x41000000, 6, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40808000, 600000, 0x40808200, 800000,
                        0x41000200, 2, 0x41844000, 350000,
                        0x40C74000, 0xFF, 0x40408000, 0x63, 0x40CE0200, 0x0023000A" />
         <Config
-            Id="0x00001080" Type="7" Enable="false" Target="sun" Fps="120, 144, 180, 240"
+            Id="0x00001080" Type="7" Enable="true" Target="sun" Fps="120, 144, 180, 240"
             Resources="0x40C00000, 0x2, 0x41000000, 6, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 1300000, 0x4080C200, 1300000,
                        0x40808000, 600000, 0x40808200, 800000,
@@ -1872,7 +1866,7 @@
 
         <!-- Type 5 Light pre-fling : Horizontal and Vertical 60 FPS -->
         <Config
-            Id="0x000010A6" Type="5" Enable="false" Timeout="100" Target="sun" Fps="60"
+            Id="0x000010A6" Type="5" Enable="true" Timeout="100" Target="sun" Fps="60"
             Resources="0x40C00000, 0x2, 0x41000000, 4, 0x40C78000, 0, 0x40C7C000, 0" />
 
         <!-- SCHEDBOOST resource opcode, value-->
@@ -1888,7 +1882,7 @@
 
         <!-- Type 5 Light pre-fling : Horizontal and Vertical 90+ FPS -->
         <Config
-            Id="0x000010A6" Type="5" Enable="false" Timeout="100" Target="sun" Fps="90, 120, 144, 180, 240"
+            Id="0x000010A6" Type="5" Enable="true" Timeout="100" Target="sun" Fps="90, 120, 144, 180, 240"
             Resources="0x40C00000, 0x2, 0x41000000, 4, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40808000, 600000, 0x40808200, 800000,
@@ -1905,7 +1899,7 @@
 
         <!-- Type 6 Medium pre-fling : Horizontal and Vertical 60 FPS -->
         <Config
-            Id="0x000010A6" Type="6" Enable="false" Timeout="100" Target="sun" Fps="60"
+            Id="0x000010A6" Type="6" Enable="true" Timeout="100" Target="sun" Fps="60"
             Resources="0x40C00000, 0x2, 0x41000000, 6, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 998000, 0x4080C200, 998000,
                        0x40808000, 600000, 0x40808200, 800000" />
@@ -1923,7 +1917,7 @@
 
         <!-- Type 6 Medium pre-fling : Horizontal and Vertical 90+ FPS -->
         <Config
-            Id="0x000010A6" Type="6" Enable="false" Timeout="100" Target="sun" Fps="90, 120, 144, 180, 240"
+            Id="0x000010A6" Type="6" Enable="true" Timeout="100" Target="sun" Fps="90, 120, 144, 180, 240"
             Resources="0x40C00000, 0x2, 0x41000000, 6, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40808000, 600000, 0x40808200, 800000,
@@ -1943,7 +1937,7 @@
 
         <!-- Type 7 Heavy pre-fling : Horizontal and Vertical 60 FPS -->
         <Config
-            Id="0x000010A6" Type="7" Enable="false" Timeout="100" Target="sun" Fps="60"
+            Id="0x000010A6" Type="7" Enable="true" Timeout="100" Target="sun" Fps="60"
             Resources="0x40C00000, 0x2, 0x41000000, 6, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40808000, 600000, 0x40808200, 800000,
@@ -1966,7 +1960,7 @@
 
         <!-- Type 7 Heavy pre-fling : Horizontal and Vertical 90+ FPS -->
         <Config
-            Id="0x000010A6" Type="7" Enable="false" Timeout="100" Target="sun" Fps="90, 120, 144, 180, 240"
+            Id="0x000010A6" Type="7" Enable="true" Timeout="100" Target="sun" Fps="90, 120, 144, 180, 240"
             Resources="0x40C00000, 0x2, 0x41000000, 6, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 1300000, 0x4080C200, 1300000,
                        0x40808000, 600000, 0x40808200, 800000,
@@ -1999,7 +1993,7 @@
         <!-- MPCTLV3_MIN_ONLINE_CPU_CLUSTER_BIG, value -->
         <!-- Type 5 Light Drags: 90 and lower FPS -->
         <Config
-            Id="0x00001087" Type="5" Enable="false" Timeout="0" Target="sun" Fps="60,90"
+            Id="0x00001087" Type="5" Enable="true" Timeout="0" Target="sun" Fps="60,90"
             Resources="0x40C78000, 0, 0x40C7C000, 0, 0x40C00000, 2, 0x41000000, 4" />
 
         <!-- MPCTLV3_SCHED_MIN_TASK_UTIL_FOR_COLOCATION, value -->
@@ -2008,7 +2002,7 @@
         <!-- MPCTLV3_MIN_ONLINE_CPU_CLUSTER_BIG, value -->
         <!-- Type 5 Light Drags: 120 and higher FPS -->
         <Config
-            Id="0x00001087" Type="5" Enable="false" Timeout="0" Target="sun" Fps="120,144,180,240"
+            Id="0x00001087" Type="5" Enable="true" Timeout="0" Target="sun" Fps="120,144,180,240"
             Resources="0x40C78000, 0, 0x40C7C000, 0, 0x40C00000, 2, 0x41000000, 4" />
 
         <!-- MPCTLV3_WALT_ADAPTIVE_HIGH_FREQ_BIG, value -->
@@ -2022,7 +2016,7 @@
         <!-- MPCTLV3_MIN_ONLINE_CPU_CLUSTER_PRIME, value -->
         <!-- Type 6 Medium Drags, 90 and lower FPS -->
         <Config
-            Id="0x00001087" Type="6" Enable="false" Timeout="0" Target="sun" Fps="60,90"
+            Id="0x00001087" Type="6" Enable="true" Timeout="0" Target="sun" Fps="60,90"
             Resources="0x4080C000, 998000, 0x41000000, 6, 0x40C78000, 0, 0x40C7C000, 0,
                        0x40C00000, 2, 0x4080C200, 998000,
                        0x40808000, 600000, 0x40808200, 800000,
@@ -2040,7 +2034,7 @@
         <!-- MPCTLV3_WALT_ADAPTIVE_LOW_FREQ_PRIME, value -->
         <!-- Type 6 Medium Drags, 120 FPS -->
         <Config
-            Id="0x00001087" Type="6" Enable="false" Timeout="0" Target="sun" Fps="120"
+            Id="0x00001087" Type="6" Enable="true" Timeout="0" Target="sun" Fps="120"
             Resources="0x4080C000, 902400, 0x4080C200, 902400, 0x40C00000, 2, 0x41000000, 6,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1, 0x40CE0200, 0x0023000A,
                        0x40808000, 600000, 0x40808200, 800000" />
@@ -2059,7 +2053,7 @@
         <!-- MPCTLV3_WALT_ADAPTIVE_LOW_FREQ_PRIME, value -->
         <!-- Type 6 Medium Drags, 144 and higher FPS -->
         <Config
-            Id="0x00001087" Type="6" Enable="false" Timeout="0" Target="sun" Fps="144,180,240"
+            Id="0x00001087" Type="6" Enable="true" Timeout="0" Target="sun" Fps="144,180,240"
             Resources="0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40C00000, 2, 0x40C74000, 0xFF, 0x40408000, 0x63,
                        0x41000000, 6, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1, 0x40CE0200, 0x0023000A,
@@ -2075,7 +2069,7 @@
         <!-- MPCTLV3_WALT_ADAPTIVE_LOW_FREQ_PRIME, value -->
         <!-- Type 7 Heavy Drags, 90 and lower FPS -->
         <Config
-            Id="0x00001087" Type="7" Enable="false" Timeout="0" Target="sun" Fps="60,90"
+            Id="0x00001087" Type="7" Enable="true" Timeout="0" Target="sun" Fps="60,90"
             Resources="0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF, 0x40408000, 0x63,
                        0x41000000, 6, 0x40808000, 600000, 0x40808200, 800000" />
@@ -2095,7 +2089,7 @@
         <!-- MPCTLV3_WALT_ADAPTIVE_LOW_FREQ_PRIME resource opcode, value -->
         <!-- Type=7 Heavy Drags, 120 FPS -->
         <Config
-            Id="0x00001087" Type="7" Enable="false" Timeout="0" Target="sun" Fps="120"
+            Id="0x00001087" Type="7" Enable="true" Timeout="0" Target="sun" Fps="120"
             Resources="0x4080C000, 1000000, 0x4080C200, 1000000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF, 0x40408000, 0x63,
                        0x41000000, 6, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 2, 0x40CE0200, 0x0023000A,
@@ -2115,7 +2109,7 @@
         <!-- MPCTLV3_WALT_ADAPTIVE_LOW_FREQ_PRIME resource opcode, value -->
         <!-- Type=7 Heavy Drags, 144 and higher FPS -->
         <Config
-            Id="0x00001087" Type="7" Enable="false" Timeout="0" Target="sun" Fps="144,180,240"
+            Id="0x00001087" Type="7" Enable="true" Timeout="0" Target="sun" Fps="144,180,240"
             Resources="0x4080C000, 1300000, 0x4080C200, 1300000,
                        0x40C00000, 0x2, 0x40C74000, 0xFF, 0x40408000, 0x63,
                        0x41000000, 6, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 2, 0x40CE0200, 0x0023000A,
