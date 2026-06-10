@@ -33,6 +33,24 @@
       "message": "Do we still need the shitload of qualcomm blobs? Can\u0027t we trim them down to the bare minimum?",
       "revId": "5d587c778988b864f080677e322adae8b481abbc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "953355e3_4f8ee4e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2026-06-10T14:12:03Z",
+      "side": 1,
+      "message": "guessed so given it\u0027s built on top of qti perf stack",
+      "parentUuid": "5e67c597_796e7ea5",
+      "revId": "5d587c778988b864f080677e322adae8b481abbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
