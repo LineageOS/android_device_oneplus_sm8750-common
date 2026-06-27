@@ -85,8 +85,6 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/seccomp_policy/gnss@2.0-qsap-location.policy': blob_fixup()
         .add_line_if_missing('sched_get_priority_min: 1')
         .add_line_if_missing('sched_get_priority_max: 1'),
-    'vendor/lib64/hw/android.hardware.bluetooth.audio_sw.so': blob_fixup()
-        .replace_needed('android.media.audio.common.types-V4-ndk.so', 'android.media.audio.common.types-V3-ndk.so'),
     'vendor/lib64/hw/libaudiocorehal.qti.so': blob_fixup()
         .replace_needed('libaudio_aidl_conversion_common_ndk.so', 'libaudio_aidl_conversion_common_ndk_prebuilt.so'),
     'vendor/lib64/android.hardware.bluetooth.audio-impl_prebuilt.so': blob_fixup()
