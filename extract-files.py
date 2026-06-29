@@ -4,11 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+from extract_utils.file import File
 from extract_utils.fixups_blob import (
     blob_fixup,
     blob_fixups_user_type,
 )
 from extract_utils.fixups_lib import (
+    LibFixupFlag,
     lib_fixups,
     lib_fixups_user_type,
 )
@@ -28,11 +30,41 @@ namespace_imports = [
 ]
 
 
+def lib_fixup_exclude_audio_ndk(
+    lib: str,
+    partition: str,
+    file: File,
+    *args,
+    **kwargs,
+):
+    if file.dst in {
+        'vendor/lib64/hw/libaudiocorehal.default.so',
+        'vendor/lib64/hw/libaudiocorehal.qti.so',
+        'vendor/lib64/hw/libaudioeffecthal.qti.so',
+        'vendor/lib64/libaudio_aidl_conversion_common_ndk_prebuilt.so',
+        'vendor/lib64/libaudioplatformconverter.qti.so',
+        'vendor/lib64/libqtigefar.so',
+    }:
+        return lib, LibFixupFlag.EXCLUDE
+
+    return None
+
+
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
     return f'{lib}_{partition}' if partition == 'vendor' else None
 
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
+    (
+        'android.hardware.audio.common-V1-ndk',
+        'android.hardware.audio.common-V3-ndk',
+        'android.hardware.audio.core-V2-ndk',
+        'android.hardware.audio.core.sounddose-V1-ndk',
+        'android.hardware.audio.core.sounddose-V2-ndk',
+        'android.hardware.audio.effect-V2-ndk',
+        'android.media.audio.common.types-V3-ndk',
+        'android.media.audio.common.types-V4-ndk',
+    ): lib_fixup_exclude_audio_ndk,
     (
         'vendor.qti.ImsRtpService-V1-ndk',
         'vendor.qti.diaghal-V1-ndk',
