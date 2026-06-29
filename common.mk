@@ -75,10 +75,7 @@ PRODUCT_PACKAGES += \
     android.media.audio.common.types-V3-ndk.vendor \
     android.media.audio.common.types-V4-ndk.vendor \
     libalsautilsv2.vendor \
-    libaudioaidlcommon.vendor \
-    libaudioutils_shim \
-    libmediautils_vendor.vendor \
-    libmemunreachable.vendor
+    libaudioutils_shim
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8750/audio/primary-hal
 CONFIG_HAL_SRC_DIR := $(AUDIO_HAL_DIR)/configs/sun
