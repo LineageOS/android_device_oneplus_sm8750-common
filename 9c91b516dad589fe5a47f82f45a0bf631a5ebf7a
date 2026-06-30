@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08b03c4b_ea7fc784",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-06-30T22:15:04Z",
+      "side": 1,
+      "message": "\u003e  vendor/oneplus/sm8750-common/proprietary/vendor/lib64/hw/libaudioeffecthal.qti.so: error: DT_NEEDED \"android.hardware.audio.effect-V2-ndk.so\" is not specified in shared_libs.\n\u003e  vendor/oneplus/sm8750-common/proprietary/vendor/lib64/hw/libaudioeffecthal.qti.so: error: DT_NEEDED \"android.media.audio.common.types-V3-ndk.so\" is not specified in shared_libs.",
+      "revId": "9c91b516dad589fe5a47f82f45a0bf631a5ebf7a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
