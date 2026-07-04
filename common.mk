@@ -267,6 +267,10 @@ ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_PACKAGES += \
     android.hardware.security.keymint3-service.strongbox.nxp \
     android.hardware.weaver-service.nxp
+
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/nxp/keymint/generic \
+    hardware/nxp/weaver/generic
 endif
 
 PRODUCT_COPY_FILES += \
