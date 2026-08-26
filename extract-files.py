@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+from os import path
+
 from extract_utils.fixups_blob import (
     blob_fixup,
     blob_fixups_user_type,
@@ -131,6 +133,33 @@ module = ExtractUtilsModule(
 module.add_proprietary_file('proprietary-files-phone.txt').add_copy_files_guard(
     'TARGET_IS_TABLET', 'true', invert=True
 )
+module.add_proprietary_file(
+    'proprietary-files-tablet.txt',
+    vendor_rel_sub_path='proprietary-tablet',
+).add_copy_files_guard('TARGET_IS_TABLET', 'true')
+
+
+def postprocess_tablet_perfconfigstore(_ctx):
+    tablet_xml = path.join(
+        module.vendor_path,
+        'proprietary-tablet/vendor/etc/perf/perfconfigstore.xml',
+    )
+    if not path.isfile(tablet_xml):
+        return
+    with open(tablet_xml, encoding='utf-8') as f:
+        data = f.read()
+    old = 'Name="vendor.debug.enable.memperfd"         Value="true"'
+    new = 'Name="vendor.debug.enable.memperfd"         Value="false"'
+    if new in data:
+        return
+    patched = data.replace(old, new, 1)
+    if patched == data:
+        raise ValueError(f'{tablet_xml}: memperfd enable line not found')
+    with open(tablet_xml, 'w', encoding='utf-8') as f:
+        f.write(patched)
+
+
+module.add_postprocess_fn(postprocess_tablet_perfconfigstore)
 
 if __name__ == '__main__':
     utils = ExtractUtils.device(module)

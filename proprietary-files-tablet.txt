@@ -1,0 +1,7 @@
+## All proprietary files from this list, unless pinned and noted otherwise,
+## are from OnePlus 13 (CPH2653_16.0.9.401(EX01)).
+
+# Performance
+vendor/etc/perf/perfconfigstore.xml
+
+# vi:ft=conf
