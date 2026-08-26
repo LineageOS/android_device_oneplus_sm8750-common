@@ -362,6 +362,12 @@ PRODUCT_PACKAGES += \
     qspa_vendor.rc \
     vendor.qti.qspa-service
 
+# SSG
+ifeq ($(TARGET_IS_TABLET),true)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sec_channel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/sec_channel.rc
+endif
+
 # Recovery
 $(call soong_config_set_bool,recovery,target_recovery_uses_qti_drm,true)
 
