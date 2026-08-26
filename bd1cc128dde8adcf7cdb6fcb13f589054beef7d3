@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7bfcdb3d_a045449d",
+        "filename": "configs/sec_channel.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-08-26T12:30:11Z",
+      "side": 0,
+      "message": "Move to \"ssg\" subfolder.",
+      "revId": "bd1cc128dde8adcf7cdb6fcb13f589054beef7d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
