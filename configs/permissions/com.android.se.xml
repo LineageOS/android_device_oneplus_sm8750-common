@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-    Copyright (c) 2022 Qualcomm Technologies, Inc.
-    All Rights Reserved.
--->
-<permissions>
-    <feature name="com.android.se" />
-</permissions>
