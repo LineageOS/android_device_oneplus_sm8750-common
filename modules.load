@@ -358,3 +358,5 @@ synx-driver.ko
 ipclite_test.ko
 msm_video.ko
 msm_kgsl.ko
+tms_device_modules.ko
+oplus_nfc.ko
