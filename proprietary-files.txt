@@ -924,7 +924,6 @@ vendor/lib64/libtrustedapploader.so
 # WiFi
 odm/bin/init.oplus.wifi.sh
 odm/etc/init/hw/init.oplus.wifi.rc
-odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
 vendor/bin/cnss-daemon
 vendor/etc/init/init.vendor.wlan.rc
 vendor/etc/wifi/p2p_supplicant_overlay.conf
