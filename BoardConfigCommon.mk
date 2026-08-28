@@ -147,8 +147,7 @@ TARGET_KERNEL_EXT_MODULES := \
     qcom/opensource/wlan/qcacld-3.0/.kiwi_v2 \
     qcom/opensource/wlan/qcacld-3.0/.peach_v2 \
     qcom/opensource/wlan/qcacld-3.0/.wcn7750 \
-    qcom/opensource/bt-kernel \
-    nxp/opensource/driver
+    qcom/opensource/bt-kernel
 
 TARGET_KERNEL_EXT_MODULES += \
     oplus/hardware/radio/kernel/mdmfeature:kbuild \
@@ -163,6 +162,8 @@ TARGET_KERNEL_EXT_MODULES += \
     oplus/kernel/network/oplus_network_esim:kbuild \
     oplus/kernel/network/oplus_network_sim_detect:kbuild \
     oplus/kernel/network/oplus_rf_cable_monitor:kbuild \
+    oplus/kernel/nfc/oplus_nfc:kbuild \
+    oplus/kernel/nfc/thn31:kbuild \
     oplus/kernel/touchpanel/oplus_touchscreen_v2/touch_custom:kbuild \
     oplus/kernel/touchpanel/oplus_touchscreen_v2:kbuild \
     oplus/kernel/touchpanel/synaptics_hbp:kbuild \
@@ -170,7 +171,8 @@ TARGET_KERNEL_EXT_MODULES += \
     oplus/secure/biometrics/fingerprints/bsp/uff/driver:kbuild \
     oplus/secure/common/bsp/drivers/oplus_secure_common \
     oplus/sensor/kernel/oplus_consumer_ir:kbuild \
-    oplus/sensor/kernel/qcom/sensor:kbuild
+    oplus/sensor/kernel/qcom/sensor:kbuild \
+    nxp/opensource/driver
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
