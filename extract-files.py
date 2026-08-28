@@ -48,7 +48,6 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libshims_aidl_fingerprint_v3.oplus.so'),
     (
         'odm/bin/touchDaemon',
-        'odm/bin/hw/vendor-oplus-hardware-touch-V2-service',
         'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff',
         'vendor/lib64/hw/libaudioeffecthal.qti.so',
         'vendor/lib64/soundfx/libquasar.so',
