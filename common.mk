@@ -259,19 +259,9 @@ $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_oplus)
 PRODUCT_COPY_FILES += \
     kernel/oneplus/sm8750/modules.systemdlkm_blocklist.msm.sun:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/system_dlkm.modules.blocklist
 
-# Keymint
+# Keystore
 PRODUCT_PACKAGES += \
     android.hardware.hardware_keystore_V3.xml
-
-ifneq ($(TARGET_IS_TABLET),true)
-PRODUCT_PACKAGES += \
-    android.hardware.security.keymint3-service.strongbox.nxp \
-    android.hardware.weaver-service.nxp
-
-PRODUCT_SOONG_NAMESPACES += \
-    hardware/nxp/keymint/generic \
-    hardware/nxp/weaver/generic
-endif
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.keystore.app_attest_key.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.keystore.app_attest_key.xml \
