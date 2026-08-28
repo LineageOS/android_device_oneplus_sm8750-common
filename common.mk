@@ -292,7 +292,6 @@ PRODUCT_PACKAGES += \
 # NFC
 ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_PACKAGES += \
-    android.hardware.nfc-service.nxp \
     com.android.nfc_extras \
     Tag
 
