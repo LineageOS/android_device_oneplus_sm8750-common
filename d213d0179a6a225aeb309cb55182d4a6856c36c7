@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd018be1_cc7f4516",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-02T22:29:01Z",
+      "side": 1,
+      "message": "I don\u0027t think that this is correct:\n\n\u003e  strings vendor/lib64/libgps.utils.so | grep gps.conf\n\u003e  %s:%d] gps conf from %s to %s\n\u003e  /my_bigball/vendor/etc/gps.conf\n\u003e  %s %d %ld %s :%s:%d] gps conf from %s to %s\n\u003e  /vendor/odm/etc/gps.conf",
+      "revId": "d213d0179a6a225aeb309cb55182d4a6856c36c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
