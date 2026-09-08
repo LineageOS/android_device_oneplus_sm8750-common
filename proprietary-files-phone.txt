@@ -509,12 +509,4 @@ vendor/lib64/libGPQeSE.so
 vendor/lib64/libGPTEE_vendor.so
 vendor/lib64/libesesbprovision.so
 
-# Soter
-system_ext/app/SoterService/SoterService.apk
-vendor/bin/hw/vendor.qti.hardware.soter-service
-vendor/etc/init/vendor.qti.hardware.soter-service.rc
-vendor/etc/vintf/manifest/vendor.qti.hardware.soter-service.xml
-vendor/lib64/hw/vendor.qti.hardware.soter-impl.so
-vendor/lib64/vendor.qti.hardware.soter-V1-ndk.so
-
 # vi:ft=conf
