@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- nfc always ON support -->
+    <bool name="nfcc_always_on_allowed">true</bool>
+    <!-- enable reader option support -->
+    <bool name="enable_reader_option_support">true</bool>
+    <!-- Enable EUICC support for offhost card emulation -->
+    <bool name="enable_euicc_support">true</bool>
+</resources>
