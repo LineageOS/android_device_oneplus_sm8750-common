@@ -497,8 +497,9 @@ PRODUCT_COPY_FILES += \
 
 # Vibrator
 ifneq ($(TARGET_IS_TABLET),true)
+TARGET_VIBRATOR_SERVICE ?= vendor.qti.hardware.vibrator.service.oplus
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.oplus
+    $(TARGET_VIBRATOR_SERVICE)
 
 PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
