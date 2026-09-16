@@ -501,7 +501,7 @@ odm/bin/hw/android.hardware.secure_element-service.qti
 odm/etc/init/android.hardware.secure_element-service.qti.rc
 odm/etc/vintf/manifest/secure_element-service.xml
 odm/etc/vintf/manifest/secure_element_omapi_service.xml
-odm/etc/hal_uuid_map_config.xml:vendor/etc/hal_uuid_map_config.xml;SYMLINK=hal_uuid_map_23.xml,hal_uuid_map_29.xml,hal_uuid_map_31.xml;TRYSRCFIRST
+odm/etc/hal_uuid_map_config.xml:vendor/etc/hal_uuid_map_config.xml;SYMLINK=hal_uuid_map_7.xml,hal_uuid_map_23.xml,hal_uuid_map_29.xml,hal_uuid_map_31.xml;TRYSRCFIRST
 odm/lib64/libsecurity_event_olc_vnd.so
 vendor/lib64/hw/libEseUtils.so
 vendor/lib64/libGPMTEEC_vendor.so
