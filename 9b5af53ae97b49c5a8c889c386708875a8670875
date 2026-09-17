@@ -33,6 +33,23 @@
       "message": "Plus reverts without an explanation are a no-go.",
       "revId": "9b5af53ae97b49c5a8c889c386708875a8670875",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b0a3da8_cad555e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-17T21:07:15Z",
+      "side": 1,
+      "message": "This is not even a proper revert.",
+      "revId": "9b5af53ae97b49c5a8c889c386708875a8670875",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
