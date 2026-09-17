@@ -301,6 +301,7 @@ wcd938x_dlkm.ko
 wcd938x_slave_dlkm.ko
 wcd939x_dlkm.ko
 wcd939x_slave_dlkm.ko
+sdca_registers_dlkm.ko
 wcd9378_dlkm.ko
 wcd9378_slave_dlkm.ko
 lpass_bt_swr_dlkm.ko
@@ -348,6 +349,7 @@ wcd938x_dlkm.ko
 wcd938x_slave_dlkm.ko
 wcd939x_dlkm.ko
 wcd939x_slave_dlkm.ko
+sdca_registers_dlkm.ko
 wcd9378_dlkm.ko
 wcd9378_slave_dlkm.ko
 lpass_bt_swr_dlkm.ko
@@ -417,6 +419,7 @@ wcd938x_dlkm.ko
 wcd938x_slave_dlkm.ko
 wcd939x_dlkm.ko
 wcd939x_slave_dlkm.ko
+sdca_registers_dlkm.ko
 wcd9378_dlkm.ko
 wcd9378_slave_dlkm.ko
 lpass_bt_swr_dlkm.ko
@@ -464,6 +467,7 @@ wcd938x_dlkm.ko
 wcd938x_slave_dlkm.ko
 wcd939x_dlkm.ko
 wcd939x_slave_dlkm.ko
+sdca_registers_dlkm.ko
 wcd9378_dlkm.ko
 wcd9378_slave_dlkm.ko
 lpass_bt_swr_dlkm.ko
