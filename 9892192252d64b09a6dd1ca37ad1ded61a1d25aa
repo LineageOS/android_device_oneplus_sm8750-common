@@ -16,6 +16,24 @@
       "message": "This needs a companion change.",
       "revId": "9892192252d64b09a6dd1ca37ad1ded61a1d25aa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2ca816e_27900a26",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-09-17T20:00:53Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_kernel_oneplus_sm8750-modules/+/503155 \n\npushed here",
+      "parentUuid": "98396194_a615d91a",
+      "revId": "9892192252d64b09a6dd1ca37ad1ded61a1d25aa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
