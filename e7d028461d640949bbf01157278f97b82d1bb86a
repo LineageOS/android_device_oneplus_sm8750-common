@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e73ec5a3_27ddcab0",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 975,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2026-09-18T19:05:54Z",
+      "side": 0,
+      "message": "AFAIK, the daemon and service are pretty much the same despite diff TP drivers",
+      "range": {
+        "startLine": 969,
+        "startChar": 0,
+        "endLine": 975,
+        "endChar": 36
+      },
+      "revId": "e7d028461d640949bbf01157278f97b82d1bb86a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
