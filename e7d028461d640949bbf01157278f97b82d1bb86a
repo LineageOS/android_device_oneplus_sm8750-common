@@ -22,6 +22,30 @@
       },
       "revId": "e7d028461d640949bbf01157278f97b82d1bb86a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1eed2e76_8f521a2e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 975,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-09-20T09:47:28Z",
+      "side": 0,
+      "message": "Needed for touch to work properly atleast on ace6",
+      "parentUuid": "e73ec5a3_27ddcab0",
+      "range": {
+        "startLine": 969,
+        "startChar": 0,
+        "endLine": 975,
+        "endChar": 36
+      },
+      "revId": "e7d028461d640949bbf01157278f97b82d1bb86a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
