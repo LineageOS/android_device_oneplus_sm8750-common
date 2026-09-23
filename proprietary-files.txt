@@ -166,12 +166,9 @@ vendor/lib64/libdiag.so
 vendor/lib64/vendor.qti.diaghal-V1-ndk.so;MODULE_SUFFIX=_vendor
 
 # Display (HAL)
-odm/etc/display/cwb_weightspos.json
-odm/etc/vintf/manifest/manifest_oplus_cwb_aidl.xml
 vendor/bin/hw/vendor.qti.hardware.display.color-service
 vendor/etc/init/vendor.qti.hardware.display.color-service.rc
 vendor/lib64/libcwb_client_vendor.so
-vendor/lib64/libcwb_qcom_aidl.so
 vendor/lib64/libhdrvivid.so
 vendor/lib64/libhwcsensor.so
 vendor/lib64/libsdm-brightnessaware-parser.so
