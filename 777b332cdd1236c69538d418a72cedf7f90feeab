@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7507afe7_3156c96f",
+        "filename": "configs/sensors/hals.conf",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-23T20:32:02Z",
+      "side": 0,
+      "message": "We need to decommonize this, since optical udfps devices need sensors.oplus.",
+      "revId": "777b332cdd1236c69538d418a72cedf7f90feeab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
