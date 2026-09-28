@@ -16,6 +16,24 @@
       "message": "error: vendor/oneplus/sm8750-common/Android.bp:13908:1: \"vendor.qti.hardware.perf2-hal-service\" depends on undefined module \"libqti-scenariod\".\nerror: vendor/oneplus/sm8750-common/Android.bp:13908:1: \"vendor.qti.hardware.perf2-hal-service\" depends on undefined module \"libqti-s3tf\".",
       "revId": "17764a3e5c9a62435022718be1dd516ed39718fa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d81dfad_177b0a3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T23:40:48Z",
+      "side": 1,
+      "message": "Should be good now. Will verify later.",
+      "parentUuid": "63ba4972_d1e3eb97",
+      "revId": "17764a3e5c9a62435022718be1dd516ed39718fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
