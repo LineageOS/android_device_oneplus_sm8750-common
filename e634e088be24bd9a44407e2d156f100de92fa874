@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aca8ce47_12fc284c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2026-09-28T20:19:58Z",
+      "side": 1,
+      "message": "vendor/oneplus/sm8750-common/Android.bp:7932:1: \"libvui_dmgr\" depends on undefined module \"libqesdk2_0\".",
+      "revId": "e634e088be24bd9a44407e2d156f100de92fa874",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
