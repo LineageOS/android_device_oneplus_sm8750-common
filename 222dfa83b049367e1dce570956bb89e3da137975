@@ -22,6 +22,30 @@
       },
       "revId": "222dfa83b049367e1dce570956bb89e3da137975",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f2964ff_26716010",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 11
+      },
+      "lineNbr": 342,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T12:39:46Z",
+      "side": 1,
+      "message": "You mean that it\u0027s device-specific?",
+      "parentUuid": "ed6ca76b_7d62172b",
+      "range": {
+        "startLine": 342,
+        "startChar": 0,
+        "endLine": 342,
+        "endChar": 2
+      },
+      "revId": "222dfa83b049367e1dce570956bb89e3da137975",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
