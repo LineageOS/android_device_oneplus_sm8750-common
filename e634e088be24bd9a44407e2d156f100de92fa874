@@ -16,6 +16,24 @@
       "message": "vendor/oneplus/sm8750-common/Android.bp:7932:1: \"libvui_dmgr\" depends on undefined module \"libqesdk2_0\".",
       "revId": "e634e088be24bd9a44407e2d156f100de92fa874",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1c2862c0_9657a25d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T20:24:50Z",
+      "side": 1,
+      "message": "Yes, this was uploaded untested. I am fixing sm8550 and then I\u0027ll come back to this one.",
+      "parentUuid": "aca8ce47_12fc284c",
+      "revId": "e634e088be24bd9a44407e2d156f100de92fa874",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
