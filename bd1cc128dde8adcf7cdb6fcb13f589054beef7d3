@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb9f7ec4_33e33b59",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-29T20:41:11Z",
+      "side": 1,
+      "message": "Superseded by https://review.lineageos.org/c/LineageOS/android_device_oneplus_sm8750-common/+/505233.",
+      "revId": "bd1cc128dde8adcf7cdb6fcb13f589054beef7d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
