@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5ac5b43_027e91b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-29T21:15:23Z",
+      "side": 1,
+      "message": "I think we discussed about it, that it introduces jank.",
+      "revId": "99ba9cb598dce3af0a85a8d5419bbc5b2e82536f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
