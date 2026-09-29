@@ -16,6 +16,24 @@
       "message": "I think we discussed about it, that it introduces jank.",
       "revId": "99ba9cb598dce3af0a85a8d5419bbc5b2e82536f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e85ceab7_c8adab4e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-09-29T21:23:05Z",
+      "side": 1,
+      "message": "yeah, it improves smoothness for me and the devices on change-id. check ur devices if it causes jank for other devices we can drop",
+      "parentUuid": "d5ac5b43_027e91b7",
+      "revId": "99ba9cb598dce3af0a85a8d5419bbc5b2e82536f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
