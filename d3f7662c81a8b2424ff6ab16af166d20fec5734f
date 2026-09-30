@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2cd2b7ff_4ce4324a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37713
+      },
+      "writtenOn": "2026-09-30T13:58:26Z",
+      "side": 1,
+      "message": "No need to merge if volkswagen decom gets merged\nhttps://review.lineageos.org/c/LineageOS/android_device_oneplus_sm8750-common/+/503263",
+      "revId": "d3f7662c81a8b2424ff6ab16af166d20fec5734f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
