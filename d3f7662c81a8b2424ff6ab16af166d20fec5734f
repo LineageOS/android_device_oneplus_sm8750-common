@@ -33,6 +33,24 @@
       "message": "https://review.lineageos.org/c/LineageOS/android_device_oneplus_sm8750-common/+/503263 already part of",
       "revId": "d3f7662c81a8b2424ff6ab16af166d20fec5734f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d86abd0c_b7a23782",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37713
+      },
+      "writtenOn": "2026-10-02T21:34:45Z",
+      "side": 1,
+      "message": "acknowledged\nwhy do you remove touchdaemon btw, I don\u0027t need to remove it only replacing hbp5 makes touch work",
+      "parentUuid": "68a9d908_3741ba43",
+      "revId": "d3f7662c81a8b2424ff6ab16af166d20fec5734f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
