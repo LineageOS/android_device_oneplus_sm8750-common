@@ -34,6 +34,24 @@
       "parentUuid": "671c1640_e0c2cb99",
       "revId": "0412c96be3c8c9cae84e160c3d1456451db44b84",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "42d1ff9e_f21b36fd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-02T08:53:44Z",
+      "side": 1,
+      "message": "yes will adapt in that patch soong was added in 24.0 will update the path.",
+      "parentUuid": "255c39d0_522dd2c7",
+      "revId": "0412c96be3c8c9cae84e160c3d1456451db44b84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
