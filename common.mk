@@ -250,6 +250,8 @@ PRODUCT_PACKAGES += \
     init.kernel.post_boot-memory.sh \
     init.kernel.post_boot-sun.sh \
     init.kernel.post_boot-sun_default_6_2.sh \
+    init.kernel.post_boot-tuna.sh \
+    init.kernel.post_boot-tuna_default_2_3_2_1.sh \
     init.oplus.rc \
     init.qcom.early_boot.sh \
     init.qcom.rc \
