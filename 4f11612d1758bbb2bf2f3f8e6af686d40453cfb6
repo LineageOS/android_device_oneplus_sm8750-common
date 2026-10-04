@@ -16,6 +16,24 @@
       "message": "whitespace",
       "revId": "4f11612d1758bbb2bf2f3f8e6af686d40453cfb6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ddec535d_95bfbee4",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 812,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-04T19:36:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7225b702_535d3fac",
+      "revId": "4f11612d1758bbb2bf2f3f8e6af686d40453cfb6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
