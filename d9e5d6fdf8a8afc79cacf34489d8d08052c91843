@@ -16,6 +16,24 @@
       "message": "just drop the whole `if` case instead? we have the overlay to disable it by default anyway, if required",
       "revId": "d9e5d6fdf8a8afc79cacf34489d8d08052c91843",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ebbb444_a2168311",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-04T19:36:02Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "adfe9c07_a7df4134",
+      "revId": "d9e5d6fdf8a8afc79cacf34489d8d08052c91843",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
