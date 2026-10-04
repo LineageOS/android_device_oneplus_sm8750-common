@@ -87,6 +87,18 @@ sh_binary {
 }
 
 sh_binary {
+    name: "init.kernel.post_boot-tuna.sh",
+    src: "init.kernel.post_boot-tuna.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-tuna_default_2_3_2_1.sh",
+    src: "init.kernel.post_boot-tuna_default_2_3_2_1.sh",
+    vendor: true,
+}
+
+sh_binary {
     name: "init.qcom.early_boot.sh",
     src: "init.qcom.early_boot.sh",
     vendor: true,
