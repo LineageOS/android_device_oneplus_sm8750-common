@@ -101,7 +101,6 @@ TARGET_KERNEL_CONFIG := \
     vendor/oplus/sun_perf.config
 
 # Kernel modules
-BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell sed 's/#.*$$//;/^$$/d' $(COMMON_PATH)/modules.load.system_dlkm))
 BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE := $(TARGET_KERNEL_SOURCE)/modules.vendor_blocklist.msm.sun
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(COMMON_PATH)/modules.load))
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_BLOCKLIST_FILE := $(BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE)
@@ -112,7 +111,7 @@ BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := \
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(COMMON_PATH)/modules.load.recovery))
 BOOT_KERNEL_MODULES := $(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD)
 SYSTEM_KERNEL_MODULES := \
-    $(BOARD_SYSTEM_KERNEL_MODULES_LOAD) \
+    $(strip $(shell sed 's/#.*$$//;/^$$/d' $(COMMON_PATH)/modules.gki)) \
     $(strip $(shell sed 's/#.*$$//;/^$$/d' $(COMMON_PATH)/modules.kunit))
 
 TARGET_KERNEL_EXT_MODULE_ROOT := kernel/oneplus/sm8750-modules
