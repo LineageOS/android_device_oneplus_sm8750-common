@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ad1d4ee_0a93a54f",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-13T10:43:50Z",
+      "side": 0,
+      "message": "Don\u0027t you need to decommonize this as well, because of different aidl versions?",
+      "range": {
+        "startLine": 249,
+        "startChar": 0,
+        "endLine": 249,
+        "endChar": 59
+      },
+      "revId": "085863491377bad762bedb41ed2f293896fdb081",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
