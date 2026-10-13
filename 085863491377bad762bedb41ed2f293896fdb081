@@ -46,6 +46,30 @@
       },
       "revId": "085863491377bad762bedb41ed2f293896fdb081",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f56e8d3a_6b3d5dcd",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-13T10:50:48Z",
+      "side": 0,
+      "message": "I\u0027d prefer to move that vintf fragment as well, knowing it\u0027s tied to the interface version.",
+      "parentUuid": "ffe426d6_7b7dd804",
+      "range": {
+        "startLine": 249,
+        "startChar": 0,
+        "endLine": 249,
+        "endChar": 59
+      },
+      "revId": "085863491377bad762bedb41ed2f293896fdb081",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
