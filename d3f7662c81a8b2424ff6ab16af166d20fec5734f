@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "00eb9cd9_a4abf315",
+        "filename": "proprietary-files-phone.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 504,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-25T10:59:06Z",
+      "side": 0,
+      "message": "If I remember correctly, this mapping was related to OMAPI, so we might as well decommonize and tailor it per target.",
+      "range": {
+        "startLine": 504,
+        "startChar": 0,
+        "endLine": 504,
+        "endChar": 165
+      },
+      "revId": "d3f7662c81a8b2424ff6ab16af166d20fec5734f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
