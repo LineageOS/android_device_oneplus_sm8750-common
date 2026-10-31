@@ -52,6 +52,18 @@
             <item value="42" />
             <item value="69" />
         </int-array>
+        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
+            <item value="-126" />
+            <item value="-121" />
+            <item value="-114" />
+            <item value="-105" />
+        </int-array>
+        <int-array name="lte_rsrp_thresholds_int_array" num="4">
+            <item value="-126" />
+            <item value="-121" />
+            <item value="-114" />
+            <item value="-105" />
+        </int-array>
     </carrier_config>
     <carrier_config mcc="001" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
